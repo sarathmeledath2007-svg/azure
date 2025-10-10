@@ -1,0 +1,1414 @@
+@font-face {
+  font-family: "Nnormal";
+  src: url(font/MWFFluentIcons.woff2);
+}
+
+@font-face {
+  font-family: "BBold";
+  src: url(font/mwfmdl2-v3.54.woff);
+}
+
+@font-face {
+  font-family: "letest";
+  src: url(font/latest.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: letest;
+}
+
+/* header */
+
+header {
+  margin-bottom: 34px;
+  font-size: 15px;
+  font-family: Nnormal;
+  color: #000;
+  background-color: #fff;
+}
+
+.header-main {
+  border-bottom: 1px solid #e6e6e6;
+  height: 53px;
+  background: #fff;
+  color: #000;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  margin: 2px 2px 1px 1px;
+  padding: 9px;
+  transition: color 0.1s, background-color 0.1s;
+  border: 0;
+}
+
+.search-icon::after {
+  font-family: "BBold";
+  content: "";
+  border: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -1px;
+  position: relative;
+  text-indent: 0;
+  vertical-align: sub;
+  margin-top: 8px;
+}
+
+.header-logo {
+  display: block;
+  position: absolute;
+  left: calc(50% - 60px);
+  height: auto;
+  margin: 3px 1px 1px 1px;
+  padding: 12px 4px;
+}
+
+.header-logo img {
+  margin-top: -3px;
+  max-width: none;
+  width: 108px;
+  height: auto;
+}
+
+.azure-button {
+  left: 0;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  display: block;
+  height: 33px;
+  position: absolute;
+  width: 100%;
+  top: 54px;
+}
+
+.azure-button button {
+  background-color: transparent;
+  border: 0;
+  border-color: #000;
+  display: block;
+  font-family: letest;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 1px;
+  padding: 0 15px;
+  text-align: left;
+  margin-top: 7px;
+}
+
+.azure-button button::after {
+  font-family: "BBold";
+  content: "";
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 7px;
+  position: relative;
+  top: 2px;
+  margin-left: 4px;
+}
+
+/* first container */
+
+.first-container {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Azure-Linimtless-Innovation-Hero-Background-1600x580?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=666&qlt=100&fit=constrain);
+  padding-bottom: 56px;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.first-container-image {
+  width: fit-content;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 56px;
+}
+
+.first-container-image img {
+  width: inherit;
+  max-width: inherit;
+  height: inherit;
+  object-fit: fill;
+  border-radius: 8px;
+  aspect-ratio: 1.77778;
+}
+
+.first-top-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 48px;
+}
+
+.container-content {
+  row-gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-first-text {
+  margin-bottom: 11px;
+  color: #17253d;
+}
+
+.container-first-text span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.96px;
+}
+
+.container-heading {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+.container-heading h1 {
+  color: #17253d;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+}
+
+.container-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  margin-bottom: 0;
+  color: #17253d;
+  margin-top: 16px;
+  padding-right: 16px;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.container-button-one {
+  font-family: letest;
+  border: 2px solid transparent;
+  padding: 12px 12px 14px 12px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  background-color: #0078d4;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.container-button-two {
+  font-family: letest;
+  border: 2px solid #17253d;
+  padding: 12px 12px 14px 12px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  background-color: transparent;
+  color: #004275;
+  border-color: #17253d;
+  border-radius: 8px;
+}
+
+
+
+/* featured section */
+
+.featured-section {
+  margin: 0.25px;
+  position: static;
+  flex-grow: 1;
+  box-shadow: none;
+  display: flex;
+  border-radius: 0;
+  background-color: #fefefe;
+  padding: 18px 16px;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.featured-section span {
+  color: #004275;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: normal;
+  white-space: nowrap;
+}
+
+.featured-down-arrow {
+  display: flex;
+  justify-content: flex-end;
+  color: #0078d4;
+  transform: rotate(0);
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 2px;
+  left: 1px;
+}
+
+.featured-down-arrow::after {
+  font-family: "Nnormal";
+  content: "";
+  font-weight: 500;
+}
+
+.featured-down-line {
+  background-color: #004275;
+  height: 4px;
+  width: 100%;
+}
+
+/* scrollspy container */
+
+.scrollspy-container {
+  position: relative;
+}
+
+/* chat box */
+
+.chat-box {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-AI-Powered-Assistant-Background-1600x320?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=320&qlt=100&fit=constrain);
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-left: 4px;
+}
+
+.chat-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 24px 16px 24px 16px;
+  background-image: linear-gradient(180deg, #002948 0%, #004275 98.96%);
+}
+
+.chat-container-contant {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.chat-container-first {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chat-container-row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.chat-container-image {
+  margin-top: 4px;
+  height: 100%;
+}
+
+.chat-container-image img {
+  height: 50px;
+  width: 100%;
+}
+
+.chat-container-ai {
+  gap: 4px;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.chat-container-ai span {
+  white-space: nowrap;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.24px;
+  color: #fff;
+}
+
+.chat-container-solution {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.36px;
+  color: #dceef8;
+}
+
+.chat-container-second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.chat-container-search {
+  position: relative;
+  width: 100%;
+  max-width: 656px;
+  border: none;
+  background-color: #fefefe;
+  border-radius: 8px;
+  align-items: flex-end;
+  gap: 0.5rem;
+  z-index: 0;
+}
+
+.chat-container-div {
+  display: flex;
+}
+
+.chat-container-search input {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  padding-block: 20px;
+  padding-inline-end: 60px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 12px;
+}
+
+.chat-container-search button {
+  background: transparent;
+  border: none;
+  opacity: 0.2;
+  padding: 14px;
+}
+
+.chat-container-search button svg {
+  width: 23.98px;
+  height: 23.98px;
+  fill: #004275;
+}
+
+.chat-container-blue-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #0a86c4 .3%, #71ede8 100%);
+}
+
+.chat-container-que {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.chat-container-que li button {
+  border-width: 0.0625rem;
+  border-color: #fff;
+  padding: 8px 10px;
+  background: transparent;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+  width: auto;
+}
+
+/* third container */
+
+.third-container {
+  padding-top: 56px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 100%;
+  height: 1445px;
+  object-fit: cover;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Featured-News-Background-1600x826?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=826&qlt=100&fit=constrain);
+  padding-bottom: 56px;
+}
+
+.third-container-contant {
+  position: absolute;
+  padding-right: 16px;
+  padding-left: 16px;
+  max-width: 100%;
+}
+
+.container-heading-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -4px;
+  margin-left: -4px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.heading-container-first-line {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #17253d;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.96px;
+}
+
+.container-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.36px;
+  color: #0e1726;
+}
+
+.container-heading h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+  color: #0e1726;
+}
+
+.discover-section {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-right: -4px;
+  margin-left: -4px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.discover-section-content-first {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
+    rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+  background: #fefefe;
+  border-radius: 16px;
+  height: 100%;
+}
+
+.discover-content-image {
+  padding: 8px 8px 0px;
+  max-width: 100%;
+  /* height: 100%; */
+  border-radius: 10px;
+}
+
+.discover-content-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.discover-content-section {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.discover-content-section-first {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.discover-content-section-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.36px;
+}
+
+.discover-content-section-heading h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+.discover-content-section-paragraph {
+  width: 99%;
+}
+
+.discover-content-section-paragraph p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  color: #17253d;
+}
+
+.discover-content-section-button {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.discover-content-button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #004275;
+}
+
+.discover-content-button-span {
+  padding: 8px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  background-color: #0078d4;
+  border-radius: 8px;
+  color: #fff;
+  height: 15px;
+  width: 15px;
+}
+
+.discover-content-button-span span::before {
+  font-family: BBold;
+  content: "";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1px;
+  color: #fff;
+  position: relative;
+  bottom: 1px;
+}
+
+.discover-content-button-register {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: normal;
+  color: #004275;
+  padding-bottom: 2px;
+}
+
+.discover-section-content-second {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
+    rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+  background: #fefefe;
+  border-radius: 16px;
+  height: 100%;
+}
+
+.discover-section-content-third {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
+    rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+  background: #fefefe;
+  border-radius: 16px;
+  height: 100%;
+}
+
+/* fourth container */
+
+.forth-container {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Solutions-Background-1600x985?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=985&qlt=100&fit=constrain);
+}
+
+.fourth-container-contant {
+  padding-right: 16px;
+  padding-left: 16px;
+  max-width: 100%;
+}
+
+.container-content-section {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-right: -4px;
+  margin-left: -4px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.container-scroll {
+  position: relative;
+}
+
+.container-scroll-div {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  margin-inline: 44px;
+}
+
+.container-scroll-content {
+  display: flex;
+  gap: 8px;
+}
+
+.scroll-button-first {
+  background-color: #005597;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 200px;
+  border: none;
+  margin-left: 5px;
+}
+
+.scroll-button-first span {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+}
+
+.scroll-button-second {
+  padding: 8px 16px;
+  border-radius: 200px;
+  background-color: rgba(0, 85, 151, 0.1);
+  color: #004275;
+  border: none;
+}
+
+.scroll-button-second span {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+}
+
+.scroll-next-arrow {
+  border: 2px solid #004275;
+  border-radius: 200px;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(270deg, #f4fafd 25%, #f2f2f2 50%, rgba(242, 242, 242, 0) 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.scroll-next-arrow span::before {
+  font-size: 14px;
+  font-weight: 400;
+  color: #004275;
+  content: "";
+  font-family: BBold;
+}
+
+.fourth-container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: -4px;
+  margin-right: -4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  position: relative;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.fourth-featured-content {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.fourth-featured-ul {
+  list-style-type: none;
+  /* border: 1px solid #bdc5d2; */
+}
+
+.fourth-li-first {
+  border-bottom: 1px solid #bdc5d2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  width: 100%;
+}
+
+.fourth-li-heading {
+  width: 100%;
+}
+
+.fourth-li-heading-button {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 24px 0;
+  border: none;
+  border-color: transparent;
+  background: transparent;
+  align-items: center;
+  gap: 8px;
+  outline: 0;
+  width: 100%;
+}
+
+.fourth-li-heading-button::before {
+  content: "";
+  font-family: BBold;
+  font-weight: 400;
+  transform: rotate(-180deg);
+  font-size: 16px;
+  line-height: 25px;
+  align-items: flex-end;
+}
+
+.fourth-li-heading-button h3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+.fourth-li-second {
+  display: flex;
+  border-bottom: 1px solid #bdc5d2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  width: 100%;
+}
+
+.fourth-li-heading-button-second {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 24px 0;
+  border: none;
+  border-color: transparent;
+  background: transparent;
+  align-items: center;
+  gap: 8px;
+  outline: 0;
+  width: 100%;
+}
+
+.fourth-li-heading-button-second::before {
+  content: "";
+  font-family: BBold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  align-items: flex-end;
+}
+
+.fourth-li-heading-button-second h3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+.fourth-li-thrid {
+  display: flex;
+  border-bottom: 1px solid #bdc5d2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  width: 100%;
+}
+
+.fourth-li-fourth {
+  display: flex;
+  border-bottom: 1px solid #bdc5d2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  width: 100%;
+}
+
+.fourth-li-fifth {
+  display: flex;
+  border-bottom: 1px solid #bdc5d2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  width: 100%;
+}
+
+.last-button {
+  display: inline-flex;
+  background-color: #0078d4;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  gap: 8px;
+}
+
+.last-button-span {
+  padding: 8px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  background-color: #0078d4;
+  color: #fff;
+  border-radius: 8px;
+  height: 19px;
+  width: 19px;
+}
+
+.last-button-span::before {
+  content: "";
+  font-family: BBold;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.last-button-text {
+  padding-bottom: 0.125rem;
+  color: #004275;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* fifth container */
+
+.fifth-container {
+  padding-block: 56px;
+  padding-inline: 16px;
+  max-width: 100%;
+}
+
+.fifth-container-contant {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: -4px;
+  margin-right: -4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.fifth-featured-contant {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -4px;
+  margin-left: -4px;
+  padding-inline: 8px;
+  row-gap: 12px;
+}
+
+.fifth-contant-image {
+  padding-right: 4px;
+  padding-left: 4px;
+  position: relative;
+  width: 100%;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Products-and-services-01-320x664?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=2000&qlt=100&fit=constrain);
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
+
+.fifth-empty-div {
+  height: 224px;
+  width: 100%;
+}
+
+.fifth-image-content {
+  padding: 16px 12px;
+}
+
+.fifth-image-content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  text-align: left;
+  color: #dceef8;
+}
+
+.fifth-image-heading {
+  display: flex;
+}
+
+.fifth-image-heading h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.46px;
+  color: #fff;
+}
+
+.fifth-content-image {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.fifth-contant-image-para span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+
+.fifth-content-image-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.fifth-content-image-button span {
+  padding: 10px 12px 12px 12px;
+  border-radius: 8px;
+  color: #0e1726;
+  background-color: #b3daf0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+}
+
+.fifth-card-content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  height: 100%;
+}
+
+.fifth-card {
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+  background: #fefefe;
+  border-radius: 16px;
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fifth-content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 12px;
+}
+
+.fifth-content-card-image {
+  background-color: #fefefe;
+  border-width: 0.0625rem;
+  border-radius: 8px;
+  border: 1px solid #ebf2fb;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.fifth-content-card-image img {
+  width: 100%;
+  height: 100%;
+  max-width: 24px;
+  max-height: 24px;
+  font-size: 24px;
+}
+
+.fifth-content-card-section {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.fifth-content-card-first h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.fifth-content-card-second {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  color: #17253d;
+}
+
+.fifth-explore-product {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.fifth-explore-product span {
+  color: #004275;
+  text-decoration: underline;
+  text-underline-offset: 0.125rem;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* sixth container */
+
+.sixth-container {
+  padding-block: 56px;
+  padding-inline: 24px;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-See-why-Microsoft-Background-1600x690?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=690&qlt=100&fit=constrain);
+}
+
+.sixth-container-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -4px;
+  margin-left: -4px;
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+  background: #fefefe;
+  border-radius: 16px;
+  border: 0.0625rem solid #e6f2fb;
+}
+
+.sixth-container-image {
+  padding-inline: 8px;
+  padding-top: 8px;
+  border-radius: 8px;
+}
+
+.sixth-container-image img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  aspect-ratio: 1.33333;
+}
+
+.sixth-contant-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 8px 12px 16px;
+  max-width: 100%;
+}
+
+.sixth-contant-section-first {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.sixth-content-empty {
+  width: 100%;
+  display: flex;
+}
+
+.sixth-content-section-heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+}
+
+.sixth-content-section-heading h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.46px;
+}
+
+.sixth-content-section-para {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  color: #17253d;
+}
+
+.sixth-content-section-para span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.54px;
+}
+
+.sixth-content-button button {
+  border: 2px solid transparent;
+  padding: 12px 14px 14px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  background-color: #0078d4;
+  color: #fff;
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* seventh container */
+
+.seventh-container {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Resources-by-role-Background-1600x968?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1016&qlt=100&fit=constrain);
+  padding-inline: 16px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: -4px;
+}
+
+.seventh-container-content {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 4px;
+  max-width: 100%;
+}
+
+.seventh-content-first {
+  padding-inline: 16px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 44px;
+}
+
+.seveth-content-first-content {
+  padding-inline: 4px;
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.seventh-content-first-line {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.96px;
+}
+
+.seventh-content-heading {
+  max-width: 100%;
+  position: relative;
+  left: 26px;
+}
+
+.seventh-content-heading h2 {
+  font-family: letest;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+  max-width: 90%;
+}
+
+.seventh-content-second {
+  margin-top: -35px;
+}
+
+.seventh-container-scroll {
+  position: relative;
+  z-index: 1;
+  padding-inline: 34px;
+  padding-left: 24px;
+}
+
+.seventh-container-scroll-div {
+  overflow-x: scroll !important;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.seventh-scroll-centent {
+  width: 1332px;
+  padding-left: 6px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  position: relative;
+  z-index: 0;
+  /* justify-content: center; */
+}
+
+.seventh-scroll-button {
+  color: #000;
+  z-index: 1;
+  max-width: calc(1328px / 6);
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+}
+
+.seventh-scroll-button:first-child {
+  width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.seventh-scroll-button button {
+  color: #000;
+  z-index: 1;
+  border: none;
+  max-width: calc(1328px / 6);
+  padding: 12px 16px 16px 16px;
+  background: #fefefe;
+  width: 222px;
+  text-align: left;
+}
+
+.seventh-scroll-button button span {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+.seventh-scroll-button-line {
+  border-bottom-left-radius: 8px;
+  width: 100%;
+  height: 4px;
+  background-color: #004275;
+}
+
+.seventh-left-right-arrow {
+  color: #004275;
+  padding-bottom: 40px;
+  margin-top: 24px;
+  position: relative;
+}
+
+.seventh-left-arrow {
+  position: absolute;
+  left: -4px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #004275;
+  border-radius: 200px;
+  background-color: transparent;
+}
+
+.seventh-left-arrow span::after {
+  font-size: 1.125rem;
+  color: #004275;
+  font-weight: 600;
+  content: "";
+  font-family: BBold;
+}
+
+.seventh-right-arrow {
+  position: absolute;
+  left: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #004275;
+  border-radius: 200px;
+  background-color: transparent;
+}
+
+.seventh-right-arrow span::after {
+  font-size: 1.125rem;
+  color: #004275;
+  font-weight: 600;
+  content: "";
+  font-family: BBold;
+}
+
+.seventh-second-content{
+  position: relative;
+  padding-top: 24px;
+  padding-bottom: 28px;
+  max-width: 100%;
+}
+
+.seventh-it-content{
+  display: block;
+  text-align: center;
+}
+
+.seventh-ith-content-first{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.seventh-it-content-para{
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
