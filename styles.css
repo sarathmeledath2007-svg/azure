@@ -117,6 +117,7 @@ header {
 
 .first-container {
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Azure-Linimtless-Innovation-Hero-Background-1600x580?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=666&qlt=100&fit=constrain);
+  background-position: bottom;
   padding-bottom: 56px;
   max-height: 100%;
   display: block;
@@ -658,6 +659,7 @@ header {
   padding-top: 56px;
   padding-bottom: 56px;
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Solutions-Background-1600x985?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=985&qlt=100&fit=constrain);
+  background-position: bottom;
 }
 
 .fourth-container-contant {
@@ -1217,12 +1219,12 @@ header {
 
 .seventh-container {
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Resources-by-role-Background-1600x968?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1016&qlt=100&fit=constrain);
+  background-position: center;
   padding-inline: 16px;
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-inline: -4px;
 }
 
 .seventh-container-content {
@@ -1260,8 +1262,9 @@ header {
 
 .seventh-content-heading {
   max-width: 100%;
-  position: relative;
-  left: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .seventh-content-heading h2 {
@@ -1281,7 +1284,7 @@ header {
   position: relative;
   z-index: 1;
   padding-inline: 34px;
-  padding-left: 24px;
+  padding-left: 20px;
 }
 
 .seventh-container-scroll-div {
@@ -1293,8 +1296,8 @@ header {
 .seventh-scroll-centent {
   width: 1332px;
   padding-left: 6px;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  padding-bottom: 9px;
+  padding-top: 7px;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -1319,12 +1322,17 @@ header {
   border-bottom-left-radius: 8px;
 }
 
+.seventh-scroll-button:last-child{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
 .seventh-scroll-button button {
   color: #000;
   z-index: 1;
   border: none;
   max-width: calc(1328px / 6);
-  padding: 12px 16px 16px 16px;
+  padding: 12px 16px 12px 16px;
   background: #fefefe;
   width: 222px;
   text-align: left;
@@ -1353,12 +1361,14 @@ header {
 
 .seventh-left-arrow {
   position: absolute;
+  top: 1px;
   left: -4px;
   width: 40px;
   height: 40px;
   border: 2px solid #004275;
   border-radius: 200px;
   background-color: transparent;
+  opacity: 0.2;
 }
 
 .seventh-left-arrow span::after {
@@ -1371,7 +1381,8 @@ header {
 
 .seventh-right-arrow {
   position: absolute;
-  left: 50px;
+  top: 1px;
+  left: 48px;
   width: 40px;
   height: 40px;
   border: 2px solid #004275;
@@ -1390,8 +1401,9 @@ header {
 .seventh-second-content{
   position: relative;
   padding-top: 24px;
-  padding-bottom: 28px;
+  padding-bottom: 48px;
   max-width: 100%;
+  bottom: 1px;
 }
 
 .seventh-it-content{
@@ -1402,7 +1414,9 @@ header {
 .seventh-ith-content-first{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 12px;
+  padding-inline: 20px;
 }
 
 .seventh-it-content-para{
@@ -1411,4 +1425,178 @@ header {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.48px;
+}
+
+.seventh-it-button{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.seventh-it-image{
+  display: flex;
+  margin-top: 12px;
+  max-width: 100%;
+  position: relative;
+  max-width: 100%;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.12),0 2rem 4rem rgba(0, 0, 0, 0.14);
+}
+
+.seventh-it-image img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1.77778;
+  border-radius: 8px;
+}
+
+/* eighth container */
+
+.eighth-container{
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-Azure-GlobalInfrastructure-Background-1600x364?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=368&qlt=100&fit=constrain);
+  padding-block: 56px;
+  background-position: center;
+}
+
+.eighth-container-content{
+  color: #dceef8;
+  padding-right: 16px;
+  padding-left: 16px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.eighth-container-heading h2{
+  font-family: "Segoe UI Variable Display","Segoe UI",segoeui,"Helvetica Neue",helvetica,arial,sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+}
+
+.eighth-container-para{
+  padding-inline: 16px;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+}
+
+.eighth-container-button{
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid transparent;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  background-color: #b3daf0;
+  color: #0e1726;
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* ninth container */
+
+.ninth-container{
+  position: relative;
+  padding-block: 56px;
+  background: #f4fafd;
+  padding-inline: 16px;
+  max-width: 100%;
+}
+
+.ninth-container-content-top{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 8px;
+}
+
+.ninth-container-button{
+  border: 2px solid #17253d;
+  background-color: transparent;
+  color: #004275 !important;
+  border-color: #17253d;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  border-radius: 8px;
+}   
+
+.ninth-container-scroll{
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scroll-content{
+  margin-bottom: 82px;
+  scroll-behavior: unset;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.scroll-content-one{
+  position: relative;
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.25rem 0.5rem rgba(0, 0, 0, 0.14) !important;
+  white-space: normal;
+  scroll-snap-align: start;
+  padding: 3px;
+  height: 100%;
+}
+
+.scroll-content-image{
+  padding-inline: 8px;
+  padding-block-end: 8px;
+  max-width: 100%;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.scroll-content-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; 
+}
+
+.scroll-section-content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  height: auto;
+}
+
+.scroll-section-content-first{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.scroll-section-content-image{
+  display: flex;
 }
