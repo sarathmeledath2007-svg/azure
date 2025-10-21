@@ -240,6 +240,12 @@ header {
 
 /* featured section */
 
+.featured{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .featured-section {
   margin: 0.25px;
   position: static;
@@ -296,6 +302,7 @@ header {
 /* chat box */
 
 .chat-box {
+  display: none;
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-AI-Powered-Assistant-Background-1600x320?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=320&qlt=100&fit=constrain);
   max-width: 100%;
   height: 100%;
@@ -304,6 +311,7 @@ header {
 }
 
 .chat-box-container {
+  display: none;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -455,7 +463,7 @@ header {
   left: 0;
   max-height: 100%;
   width: 100%;
-  height: 1445px;
+  height: 1463px;
   object-fit: cover;
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Featured-News-Background-1600x826?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=826&qlt=100&fit=constrain);
   padding-bottom: 56px;
@@ -473,10 +481,10 @@ header {
   flex-wrap: wrap;
   margin-right: -4px;
   margin-left: -4px;
-  padding-right: 4px;
+  padding-right: 4px;   
   padding-left: 4px;
 }
-
+                                                                                                         
 .heading-container-first-line {
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -536,7 +544,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .discover-content-section {
@@ -769,6 +777,7 @@ header {
 .fourth-featured-ul {
   list-style-type: none;
   /* border: 1px solid #bdc5d2; */
+  padding-inline: 4px;
 }
 
 .fourth-li-first {
@@ -789,6 +798,7 @@ header {
   flex-direction: row-reverse;
   justify-content: space-between;
   padding: 24px 0;
+  padding-top: 0;
   border: none;
   border-color: transparent;
   background: transparent;
@@ -914,7 +924,7 @@ header {
   content: "";
   font-family: BBold;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1;
 }
 
@@ -1322,7 +1332,7 @@ header {
   border-bottom-left-radius: 8px;
 }
 
-.seventh-scroll-button:last-child{
+.seventh-scroll-button:last-child {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -1398,7 +1408,7 @@ header {
   font-family: BBold;
 }
 
-.seventh-second-content{
+.seventh-second-content {
   position: relative;
   padding-top: 24px;
   padding-bottom: 48px;
@@ -1406,12 +1416,12 @@ header {
   bottom: 1px;
 }
 
-.seventh-it-content{
+.seventh-it-content {
   display: block;
   text-align: center;
 }
 
-.seventh-ith-content-first{
+.seventh-ith-content-first {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1419,7 +1429,7 @@ header {
   padding-inline: 20px;
 }
 
-.seventh-it-content-para{
+.seventh-it-content-para {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -1427,7 +1437,7 @@ header {
   letter-spacing: -0.48px;
 }
 
-.seventh-it-button{
+.seventh-it-button {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -1439,7 +1449,7 @@ header {
   line-height: 20px;
 }
 
-.seventh-it-image{
+.seventh-it-image {
   display: flex;
   margin-top: 12px;
   max-width: 100%;
@@ -1448,10 +1458,10 @@ header {
   border-radius: 16px;
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.12),0 2rem 4rem rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.12), 0 2rem 4rem rgba(0, 0, 0, 0.14);
 }
 
-.seventh-it-image img{
+.seventh-it-image img {
   width: 100%;
   height: 100%;
   aspect-ratio: 1.77778;
@@ -1460,13 +1470,13 @@ header {
 
 /* eighth container */
 
-.eighth-container{
+.eighth-container {
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-Azure-GlobalInfrastructure-Background-1600x364?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=368&qlt=100&fit=constrain);
   padding-block: 56px;
   background-position: center;
 }
 
-.eighth-container-content{
+.eighth-container-content {
   color: #dceef8;
   padding-right: 16px;
   padding-left: 16px;
@@ -1477,15 +1487,15 @@ header {
   text-align: center;
 }
 
-.eighth-container-heading h2{
-  font-family: "Segoe UI Variable Display","Segoe UI",segoeui,"Helvetica Neue",helvetica,arial,sans-serif;
+.eighth-container-heading h2 {
+  font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.8px;
 }
 
-.eighth-container-para{
+.eighth-container-para {
   padding-inline: 16px;
   margin-top: 16px;
   font-weight: 400;
@@ -1494,7 +1504,7 @@ header {
   letter-spacing: -0.48px;
 }
 
-.eighth-container-button{
+.eighth-container-button {
   margin-top: 24px;
   display: flex;
   justify-content: center;
@@ -1513,90 +1523,351 @@ header {
 
 /* ninth container */
 
-.ninth-container{
+.ninth-container {
   position: relative;
-  padding-block: 56px;
+  padding-block-start: 56px;
+  padding-block-end: 56px;
   background: #f4fafd;
   padding-inline: 16px;
   max-width: 100%;
 }
 
-.ninth-container-content-top{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  row-gap: 8px;
+.ninth-container-content-top {
+  margin-top: 32px;
 }
 
-.ninth-container-button{
-  border: 2px solid #17253d;
-  background-color: transparent;
-  color: #004275 !important;
-  border-color: #17253d;
-  padding: 8px;
+.ninth-container-heading-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -4px;
+  margin-left: -4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ninth-heading-container-first-line {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #17253d;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.96px;
+}
+
+.ninth-container-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.36px;
+  color: #0e1726;
+}
+
+.ninth-container-heading h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+  color: #0e1726;
+  text-align: center;
+}
+
+.ninth-container-content-main {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.ninth-container-content {
+  position: relative;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 12px;
+  padding-inline: 4px;
+}
+
+.ninth-container-ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px;
+  row-gap: 8px;
+  list-style: none;
+}
+
+.ninth-container-li {
+  display: flex;
+  justify-content: center;
+}
+
+.ninth-container-brand {
+  padding: 12px;
+  background: #fefefe;
+  border-width: 0.0625rem;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #e6f2fb;
+
+}
+
+.ninth-container-brand img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1.387;
+}
+
+.ninth-container-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ninth-container-button button {
+  border: 2px solid transparent;
+  padding: 12px;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
   letter-spacing: -0.3px;
+  background-color: #0078d4;
+  color: #fff;
   border-radius: 8px;
-}   
-
-.ninth-container-scroll{
-  margin-top: 32px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-.scroll-content{
-  margin-bottom: 82px;
-  scroll-behavior: unset;
-  scroll-snap-type: x mandatory;
-  overflow-x: scroll;
-  scrollbar-width: none;
+/* next step section */
+
+.next-step-section {
+  padding-block: 56px;
+  padding-inline: 16px;
+  position: relative;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Take-the-next-step-Background-1600x552?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=542&qlt=100&fit=constrain);
+  background-position: center;
+}
+
+.next-step-heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -1.4px;
+  text-align: center;
+}
+
+.next-step-content {
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
-}
-
-.scroll-content-one{
-  position: relative;
-  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.25rem 0.5rem rgba(0, 0, 0, 0.14) !important;
-  white-space: normal;
-  scroll-snap-align: start;
-  padding: 3px;
-  height: 100%;
-}
-
-.scroll-content-image{
+  margin-top: 24px;
   padding-inline: 8px;
-  padding-block-end: 8px;
-  max-width: 100%;
-  border-radius: 8px;
-  height: 100%;
+  column-gap: 12px;
+  row-gap: 12px;
 }
 
-.scroll-content-image img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px; 
-}
-
-.scroll-section-content{
-  position: relative;
+.next-step-card {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  background: #fefefe;
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+  border-radius: 16px;
   padding: 16px;
-  height: auto;
+  position: relative;
 }
 
-.scroll-section-content-first{
+.next-card-content {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
   gap: 12px;
 }
 
-.scroll-section-content-image{
+.next-card-heading h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+}
+
+.next-card-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.48px;
+  color: #17253d;
+}
+
+.next-card-button {
+  margin-top: 32px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+/* social media container */
+
+.social-media-container {
+  background-color: #f7f7f7;
+  padding-inline: 20px;
+  margin-bottom: -48px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.social-media-content {
+  display: flex;
+  flex-direction: column;
+  padding-block: 8px;
+  padding-block-end: 12px;
+  padding-inline: 12px;
+  padding-inline-start: 0px;
+}
+
+.social-section-button {
+  background-color: #e6e6e6;
+  margin-bottom: 10px;
+  border: 2px solid transparent;
+  padding-top: 15px;
+  padding-right: 13px;
+  padding-left: 12px;
+  padding-bottom: 7px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 22px;
+  letter-spacing: -0.3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-section-button span img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  position: relative;
+  bottom: 1px;
+}
+
+.social-section-two {
+  margin-left: 20px;
+}
+
+.social-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.social-ul li {
+  margin-right: 15px;
+}
+
+.social-ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 48px;
+  background: #f2f2f2;
+  padding: 0 12px;
+  max-width: calc(1600px + 10%);
+  position: relative;
+  z-index: 1;
+}
+
+.footer-section-one {
+  padding-inline: 12px;
+  list-style: none;
+}
+
+.footer-section-one h2 {
+  color: #616161;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 36px 0 4px;
+  font-weight: 600;
+}
+
+.footer-section-one li {
+  font-size: 11px;
+  line-height: 16px;
+  padding: 8px 0;
+  color: #616161;
+}
+
+.footer-section-second {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 28px 24px 46px;
+  background-color: #f2f2f2;
+}
+
+.footer-section-line {
+  font-size: 11px;
+  line-height: 16px;
+  padding-right: 24px;
+  color: #616161;
+  display: flex;
+  align-items: center;
+}
+
+.global {
+  position: relative;
+  top: 2px;
+}
+
+.global::before {
+  content: "";
+  font-family: BBold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.footer-section-line-two {
+  display: flex;
+  font-size: 11px;
+  line-height: 16px;
+  padding-right: 24px;
+  padding-top: 4px;
+  color: #616161;
+  margin: 6px 0 14px 0;
+  position: relative;
+  left: -5px;
+}
+
+.footer-section-line-two span svg {
+  padding-right: 5px;
+}
+
+.footer-section-svg {
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+.footer-section-three {
+  padding-top: 4px;
+}
+
+.footer-section-ul {
+  float: left;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #616161;
+  font-size: 11px;
+  line-height: 25px;
+  list-style: none;
+}
+
+.footer-section-ul li {
+  padding: 6px 13px 0 0;
+  float: left;
 }
