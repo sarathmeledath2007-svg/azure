@@ -29,7 +29,7 @@
   background-color: #fff;
 }
 
-.header-second{
+.header-second {
   display: none;
 }
 
@@ -121,7 +121,7 @@
 
 .first-container {
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Azure-Linimtless-Innovation-Hero-Background-1600x580?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=666&qlt=100&fit=constrain);
-  background-position: bottom;
+  background-position: center;
   padding-bottom: 56px;
   max-height: 100%;
   display: block;
@@ -132,18 +132,16 @@
 }
 
 .first-container-image {
-  width: fit-content;
-  height: auto;
+  height: fit-content;
   max-width: 100%;
-  display: flex;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 56px;
+  aspect-ratio: 1.77778;
+
 }
 
 .first-container-image img {
-  width: inherit;
-  max-width: inherit;
-  height: inherit;
+  width: 100%;
   object-fit: fill;
   border-radius: 8px;
   aspect-ratio: 1.77778;
@@ -296,6 +294,10 @@
   background-color: #004275;
   height: 4px;
   width: 100%;
+}
+
+.featured-second {
+  display: none;
 }
 
 /* scrollspy container */
@@ -460,21 +462,14 @@
 
 .third-container {
   padding-top: 56px;
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-height: 100%;
   width: 100%;
-  height: 1463px;
+  height: 100%;
   object-fit: cover;
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Featured-News-Background-1600x826?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=826&qlt=100&fit=constrain);
   padding-bottom: 56px;
 }
 
 .third-container-contant {
-  position: absolute;
   padding-right: 16px;
   padding-left: 16px;
   max-width: 100%;
@@ -2082,14 +2077,14 @@ footer {
     padding: 6px 4px 0 6px;
   }
 
-}                                            
+}
 
 @media screen and (min-width: 860px) {
   .header-first {
     display: none;
   }
 
-  .header-second{
+  .header-second {
     display: block;
   }
 
@@ -2281,51 +2276,226 @@ footer {
   }
 
   .header-search-icon {
-  position: absolute;
-  top: 1px;        
-  right: 12px;
-  width: 34px;
-  height: 34px;
-  margin: 2px 2px 1px 1px;
-  padding: 9px;
-  transition: color 0.1s, background-color 0.1s;
-  border: 0;
-}
+    position: absolute;
+    top: 1px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    margin: 2px 2px 1px 1px;
+    padding: 9px;
+    transition: color 0.1s, background-color 0.1s;
+    border: 0;
+  }
 
-.header-search-icon::after {
-  font-family: "BBold";
-  content: "";
-  border: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-left: -1px;
-  position: relative;
-  text-indent: 0;
-  margin-top: 8px;
-}
+  .header-search-icon::after {
+    font-family: "BBold";
+    content: "";
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: -1px;
+    position: relative;
+    text-indent: 0;
+    margin-top: 8px;
+  }
 
-.first-container{
-  padding-block: 96px;
-}
+  .first-container {
+    padding-block: 96px;
+  }
 
-.first-top-container{
-  flex-direction: row-reverse;
-  padding-bottom: 0;
-  padding-inline: 56px;
-}   
+  .first-top-container {
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-inline: 56px;
+  }
 
-.container-heading h1{
-  font-size: 44px;
-  line-height: 48px;
-}
+  .first-container-image {
+    padding: 24px;
+    backdrop-filter: blur(1.25rem);
+    border-radius: 24px;
+    display: flex;
+    flex: 1;
+  }
 
-.first-container-image{
-  padding: 24px;
-  backdrop-filter: blur(1.25rem);
-  border-radius: 24px;
-}     
+  .container-content {
+    flex: 1;
+  }
 
-.first-container-image img{
-  aspect-ratio: 1.77778;
-}
+  .container-first-text {
+    position: relative;
+    bottom: 4px;
+  }
+
+  .container-heading h1 {
+    font-size: 44px;
+    line-height: 56px;
+    position: relative;
+    bottom: 8px;
+  }
+
+  .container-paragraph {
+    margin-top: 16px;
+    padding-right: 36px;
+  }
+
+  .container-button {
+    margin-top: 32px;
+  }
+
+  .container-button-one {
+    padding-inline: 28px;
+    padding-inline-start: 28px;
+  }
+
+  .container-button-two {
+    padding-inline: 28px;
+    padding-inline-start: 28px;
+  }
+
+  .featured {
+    display: none;
+  }
+
+  .featured-second {
+    display: flex;
+    padding-inline: 56px;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .featured-second-scroll {
+    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    background-color: #fefefe;
+    position: relative;
+    width: 100%;
+  }
+
+  .featured-second-scroll-div {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    height: 100%;
+  }
+
+  .featured-second-scroll-ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .featured-second-scroll-ul li {
+    white-space: nowrap;
+    margin-top: 16px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-inline-end: 48px;
+  }
+
+  .featured-second-li-first {
+    padding-inline-start: 4px;
+  }
+
+  .featured-second-scroll-ul li span {
+    padding-bottom: 16px;
+    color: #004275;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+  }
+
+  .featured-second-scroll-line {
+    width: 100%;
+    height: 4px;
+    opacity: 1;
+    background-color: #004275;
+    border-radius: 4px;
+  }
+
+  .get-start-azure-button {
+    display: flex;
+    margin-inline-start: 32px;
+  }
+
+  .get-start-azure-button button {
+    white-space: nowrap;
+    border: 2px solid transparent;
+    padding: 4px 12px;
+    padding-bottom: 6px;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    background-color: #0078d4;
+    color: #fff;
+    border-radius: 8px;
+  }
+
+  .get-start-azure-button button span {
+    padding-bottom: 0.125rem;
+  }
+
+  .third-container {
+    padding-block: 96px;
+  }
+  .third-container-contant{
+    padding-inline-start: 56px;
+  }
+
+  .container-heading-section {
+    flex-direction: column;
+  }
+
+  .discover-section {
+    flex-direction: row;
+    column-gap: 16px;
+    margin-top: 3rem;
+    padding-inline: 4px;
+    padding-inline-start: 4px;
+  }
+
+  .heading-container-first-line{
+    margin-bottom: 8px;
+  }
+
+  .container-heading h2{
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .discover-section-content-first{
+    flex: 1;
+  }
+
+  .discover-section-content-second{
+    flex: 1;
+  }
+
+  .discover-section-content-third{
+    flex: 1;
+  }
+
+  .discover-content-image img{
+    border-radius: 16px;
+  }   
+
+  .discover-content-section{
+    padding: 24px;
+  }
+
+  .discover-content-section-first{
+    gap: 16px;
+  }
+
+  .discover-content-section-paragraph p{
+    padding-right: 13px;
+  }
+
 }
