@@ -120,15 +120,27 @@
 /* first container */
 
 .first-container {
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Azure-Linimtless-Innovation-Hero-Background-1600x580?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=666&qlt=100&fit=constrain);
-  background-position: center;
   padding-bottom: 56px;
   max-height: 100%;
   display: block;
   object-fit: cover;
   width: 100%;
   height: 100%;
+  position: relative;
+}
 
+.background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .first-container-image {
@@ -137,7 +149,6 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 56px;
   aspect-ratio: 1.77778;
-
 }
 
 .first-container-image img {
@@ -157,6 +168,7 @@
   padding-right: 16px;
   padding-left: 16px;
   padding-bottom: 48px;
+  position: relative;
 }
 
 .container-content {
@@ -238,15 +250,14 @@
   border-radius: 8px;
 }
 
-
-
 /* featured section */
 
 .featured {
   position: sticky;
   top: 0;
   z-index: 1;
-  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
+    0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
 }
 
 .featured-section {
@@ -434,7 +445,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #0a86c4 .3%, #71ede8 100%);
+  background: linear-gradient(90deg, #0a86c4 0.3%, #71ede8 100%);
 }
 
 .chat-container-que {
@@ -464,8 +475,6 @@
   padding-top: 56px;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Featured-News-Background-1600x826?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=826&qlt=100&fit=constrain);
   padding-bottom: 56px;
 }
 
@@ -476,6 +485,7 @@
 }
 
 .container-heading-section {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin-right: -4px;
@@ -521,7 +531,7 @@
   padding-left: 8px;
 }
 
-.discover-section-content-first {
+.discover-section-content-card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -529,7 +539,6 @@
     rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
   background: #fefefe;
   border-radius: 16px;
-  height: 100%;
 }
 
 .discover-content-image {
@@ -638,44 +647,23 @@
   padding-bottom: 2px;
 }
 
-.discover-section-content-second {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
-    rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
-  background: #fefefe;
-  border-radius: 16px;
-  height: 100%;
-}
-
-.discover-section-content-third {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
-    rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
-  background: #fefefe;
-  border-radius: 16px;
-  height: 100%;
-}
-
 /* fourth container */
 
 .forth-container {
   padding-top: 56px;
   padding-bottom: 56px;
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Solutions-Background-1600x985?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=985&qlt=100&fit=constrain);
-  background-position: center;
+  position: relative;
 }
 
 .fourth-container-contant {
+  position: relative;
   padding-right: 16px;
   padding-left: 16px;
   max-width: 100%;
 }
 
 .container-content-section {
+  position: relative;
   margin-top: 32px;
   display: flex;
   flex-direction: column;
@@ -741,7 +729,10 @@
   padding: 0;
   width: 40px;
   height: 40px;
-  background: linear-gradient(270deg, #f4fafd 25%, #f2f2f2 50%, rgba(242, 242, 242, 0) 100%);
+  background: linear-gradient(270deg,
+      #f4fafd 25%,
+      #f2f2f2 50%,
+      rgba(242, 242, 242, 0) 100%);
   position: absolute;
   top: 0;
   right: 0;
@@ -855,7 +846,6 @@
   width: 100%;
   height: 100%;
   border-radius: 16px;
-
 }
 
 .fourth-li-first-image-section img {
@@ -908,36 +898,6 @@
   margin-bottom: 1px;
 }
 
-.fourth-li-third {
-  display: flex;
-  border-bottom: 1px solid #bdc5d2;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.48px;
-  width: 100%;
-}
-
-.fourth-li-fourth {
-  display: flex;
-  border-bottom: 1px solid #bdc5d2;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.48px;
-  width: 100%;
-}
-
-.fourth-li-fifth {
-  display: flex;
-  border-bottom: 1px solid #bdc5d2;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.48px;
-  width: 100%;
-}
-
 .fourth-last-button {
   padding-left: 4px;
   display: flex;
@@ -986,6 +946,10 @@
   line-height: 20px;
 }
 
+.fourth-container-ul-section-image {
+  display: none;
+}
+
 /* fifth container */
 
 .fifth-container {
@@ -993,6 +957,7 @@
   padding-inline: 16px;
   max-width: 100%;
   background-color: #f4fafd;
+  position: relative;
 }
 
 .fifth-container-contant {
@@ -1020,12 +985,22 @@
 .fifth-contant-image {
   padding-right: 4px;
   padding-left: 4px;
-  position: relative;
-  width: 100%;
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Products-and-services-01-320x664?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=2000&qlt=100&fit=constrain);
-  background-size: cover;
-  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  height: 100%;
   border-radius: 16px;
+}
+
+.fifth-contant-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  object-position: center -146px;
 }
 
 .fifth-empty-div {
@@ -1034,7 +1009,8 @@
 }
 
 .fifth-image-content {
-  padding: 16px 12px;
+  position: relative;
+  padding: 16px;
 }
 
 .fifth-image-content-section {
@@ -1104,7 +1080,8 @@
 }
 
 .fifth-card {
-  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
   background: #fefefe;
   border-radius: 16px;
   height: 100%;
@@ -1194,16 +1171,17 @@
 .sixth-container {
   padding-block: 56px;
   padding-inline: 24px;
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-See-why-Microsoft-Background-1600x690?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=690&qlt=100&fit=constrain);
-  background-position: top;
+  position: relative;
 }
 
 .sixth-container-content {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin-right: -4px;
   margin-left: -4px;
-  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
   background: #fefefe;
   border-radius: 16px;
   border: 0.0625rem solid #e6f2fb;
@@ -1289,8 +1267,7 @@
 /* seventh container */
 
 .seventh-container {
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Resources-by-role-Background-1600x968?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1016&qlt=100&fit=constrain);
-  background-position: center;
+  position: relative;
   padding-inline: 16px;
   max-width: 100%;
   display: flex;
@@ -1299,6 +1276,7 @@
 }
 
 .seventh-container-content {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding-inline: 4px;
@@ -1382,7 +1360,8 @@
   color: #000;
   z-index: 1;
   max-width: calc(1328px / 6);
-  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
+    0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
 }
 
 .seventh-scroll-button:first-child {
@@ -1538,12 +1517,13 @@
 /* eighth container */
 
 .eighth-container {
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-Azure-GlobalInfrastructure-Background-1600x364?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=368&qlt=100&fit=constrain);
+  position: relative;
   padding-block: 56px;
   background-position: center;
 }
 
 .eighth-container-content {
+  position: relative;
   color: #dceef8;
   padding-right: 16px;
   padding-left: 16px;
@@ -1555,7 +1535,8 @@
 }
 
 .eighth-container-heading h2 {
-  font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Segoe UI Variable Display", "Segoe UI", segoeui,
+    "Helvetica Neue", helvetica, arial, sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
@@ -1678,7 +1659,6 @@
   border-radius: 16px;
   border-style: solid;
   border-color: #e6f2fb;
-
 }
 
 .ninth-container-brand img {
@@ -1713,11 +1693,10 @@
   padding-block: 56px;
   padding-inline: 16px;
   position: relative;
-  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Take-the-next-step-Background-1600x552?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=542&qlt=100&fit=constrain);
-  background-position: center;
 }
 
 .next-step-heading {
+  position: relative;
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
@@ -1738,7 +1717,8 @@
   display: flex;
   flex-direction: column;
   background: #fefefe;
-  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
   border-radius: 16px;
   padding: 16px;
   position: relative;
@@ -1941,11 +1921,7 @@ footer {
   float: left;
 }
 
-
-
-
 @media screen and (min-width: 540px) {
-
   .first-top-container {
     padding-inline: 64px;
   }
@@ -1992,7 +1968,7 @@ footer {
 
   .fifth-content-image-button {
     flex-direction: row;
-
+    width: auto;
   }
 
   .sixth-container {
@@ -2076,7 +2052,6 @@ footer {
   .footer-section-ul li {
     padding: 6px 4px 0 6px;
   }
-
 }
 
 @media screen and (min-width: 860px) {
@@ -2307,6 +2282,11 @@ footer {
     align-items: center;
     flex-direction: row-reverse;
     padding-inline: 56px;
+    gap: 16px;
+  }
+
+  .first-container-image-main {
+    flex: 1;
   }
 
   .first-container-image {
@@ -2314,7 +2294,10 @@ footer {
     backdrop-filter: blur(1.25rem);
     border-radius: 24px;
     display: flex;
-    flex: 1;
+  }
+
+  .first-container-image img {
+    border-radius: 16px;
   }
 
   .container-content {
@@ -2335,7 +2318,7 @@ footer {
 
   .container-paragraph {
     margin-top: 16px;
-    padding-right: 36px;
+    padding-right: 48px;
   }
 
   .container-button {
@@ -2343,8 +2326,8 @@ footer {
   }
 
   .container-button-one {
-    padding-inline: 28px;
-    padding-inline-start: 28px;
+    padding-inline: 27px;
+    padding-inline-start: 27px;
   }
 
   .container-button-two {
@@ -2361,7 +2344,8 @@ footer {
     padding-inline: 56px;
     flex-direction: row;
     align-items: center;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
+      0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
     height: 56px;
     position: sticky;
     top: 0;
@@ -2408,7 +2392,6 @@ footer {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-
   }
 
   .featured-second-scroll-line {
@@ -2445,7 +2428,8 @@ footer {
   .third-container {
     padding-block: 96px;
   }
-  .third-container-contant{
+
+  .third-container-contant {
     padding-inline-start: 56px;
   }
 
@@ -2461,41 +2445,146 @@ footer {
     padding-inline-start: 4px;
   }
 
-  .heading-container-first-line{
+  .heading-container-first-line {
     margin-bottom: 8px;
   }
 
-  .container-heading h2{
+  .container-heading h2 {
     font-size: 40px;
     line-height: 48px;
   }
 
-  .discover-section-content-first{
+  .discover-section-content-card {
     flex: 1;
+    border-radius: 24px;
   }
 
-  .discover-section-content-second{
-    flex: 1;
-  }
-
-  .discover-section-content-third{
-    flex: 1;
-  }
-
-  .discover-content-image img{
+  .discover-content-image img {
     border-radius: 16px;
-  }   
-
-  .discover-content-section{
-    padding: 24px;
+    object-fit: inherit;
+    height: auto;
   }
 
-  .discover-content-section-first{
+  .discover-content-section {
+    padding: 24px;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .discover-content-section-first {
     gap: 16px;
   }
 
-  .discover-content-section-paragraph p{
+  .discover-content-section-paragraph p {
     padding-right: 13px;
   }
 
+  .discover-content-section-button {
+    margin-top: 48px;
+  }
+
+  .forth-container {
+    padding-block: 96px;
+  }
+
+  .fourth-container-contant {
+    padding-inline: 56px;
+  }
+
+  .container-content-section {
+    margin-top: 48px;
+    margin-right: 0;
+  }
+
+  .scroll-button-first {
+    padding: 9px 24px;
+  }
+
+  .scroll-button-second {
+    padding: 9px 24px;
+  }
+
+  .fourth-li-first-image-section {
+    display: none;
+  }
+
+  .fourth-container-content{
+    margin-top: 48px;
+  }
+
+  .fourth-featured-content {
+    display: flex;
+    gap: 32px;
+  }
+
+  .fourth-featured-ul{
+    flex: 1;
+  }
+
+  .fourth-container-ul-section-image {
+    width: 100%;
+    display: block;
+    flex: 1.6567;
+    position: relative;
+    right: 6px;
+  }
+
+  .fourth-container-ul-section-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+
+  .fourth-li-first {
+    display: flex;
+    margin-left: 48px;
+    margin-right: 32px;
+    width: auto;
+  }
+
+  .fourth-li-span{
+    display: flex;
+    width: 8px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #004275;
+    position: relative;
+    right: 48px;
+  }
+
+  .fourth-li-firth-link{
+    white-space: nowrap;
+    margin-bottom: 0;
+  }
+
+  .fourth-li-second{
+    margin-left: 52px;
+    margin-right: 36px;
+    width: auto;
+  }
+
+  .fourth-li-heading-button{
+    justify-content: flex-end;
+    padding-bottom: 32px;
+  }
+
+  .fourth-li-content-section{
+    gap: 30px;
+    padding-bottom: 32px;
+  }
+
+  .fourth-li-heading-button-second{
+    justify-content: flex-end;
+    padding-block: 32px;
+    gap: 12px;
+  }
+
+  .fourth-li-heading-button-second h3{
+    text-align: left;
+  }
+
+  .fourth-li-heading-button-second::before{
+    margin-top: 22px;
+    position: -2px;
+  }
 }
