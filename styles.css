@@ -2601,30 +2601,96 @@ footer {
     padding-inline: 56px;
   }
 
+  .container-content-section{
+    gap: 3rem;            
+  }
+  .fifth-container-contant{
+    gap: 16px;
+  }
+
   .fifth-image-content {
     padding: 24px;
-    grid-area: 1/1;
+    grid-area: 1/1;           
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    display: grid;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
-  .fifth-empty-div {
-    height: 0;
+  .fifth-empty-div {  
+    height: 0;    
   }
-
+  
   .fifth-card-content {
     grid-template-columns: repeat(3, 1fr);
     display: grid;
-    gap: 12px;
-    row-gap: 12px;
-    column-gap: 12px;  
+    gap: 16px;
   }
 
   .fifth-card{
-    width: inherit;
-    height: inherit;
+    width: auto;
+    height: auto;
+    padding: 24px;
   }   
 
-}    
+  .fifth-content-card{
+    gap: 16px;
+    margin-bottom: auto;
+  }
+
+  .fifth-content-card-section{
+    gap: 16px;
+  }
+
+  .fifth-explore-product{
+    margin-top: 48px;
+  }
+
+  .sixth-container{
+    padding-block: 96px;
+  }
+
+  .sixth-container-content{
+    padding-inline-start: 0;
+    border-radius: 24px;
+    margin-inline: 0;
+    margin-inline-start: -8px;
+  }
+
+  .sixth-container-content-div{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+    
+  .sixth-container-image{
+    padding-block: 8px;
+    padding-inline-end: 8px;  
+  }
+
+  .sixth-container-image{   
+    width: 100%;
+    flex: 1; 
+  }
+
+  .sixth-container-image img{            
+    height: 100%;
+    border-radius: 16px;     
+  }
+     
+  .sixth-contant-section{      
+    gap: 6rem;        
+    padding: 24px 56px 24px 16px;              
+    flex: 1;    
+  }
+
+  .sixth-contant-section-first{
+    gap: 16px;
+  }     
+
+  .sixth-content-button button{
+    width: auto;     
+  }   
+  
+  
+}             
