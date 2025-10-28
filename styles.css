@@ -2604,8 +2604,13 @@ footer {
   .container-content-section{
     gap: 3rem;            
   }
+
   .fifth-container-contant{
     gap: 16px;
+  }
+
+  .fifth-featured-contant{
+    aspect-ratio: 21 / 9;
   }
 
   .fifth-image-content {
@@ -2620,6 +2625,10 @@ footer {
 
   .fifth-empty-div {  
     height: 0;    
+  }
+
+  .fifth-image-content-section{
+    justify-content: flex-end;
   }
   
   .fifth-card-content {
