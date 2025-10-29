@@ -143,7 +143,7 @@
   object-fit: cover;
 }
 
-.first-container-image {
+.banner-container-image {
   height: fit-content;
   max-width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -151,14 +151,14 @@
   aspect-ratio: 1.77778;
 }
 
-.first-container-image img {
+.banner-container-image img {
   width: 100%;
   object-fit: fill;
   border-radius: 8px;
   aspect-ratio: 1.77778;
 }
 
-.first-banner-container{
+.banner-first-container {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
@@ -171,25 +171,25 @@
   position: relative;
 }
 
-.container-content {
+.banner-content{
   row-gap: 8px;
   display: flex;
   flex-direction: column;
 }
 
-.container-first-text {
+.banner-first-text {
   margin-bottom: 11px;
   color: #17253d;
 }
 
-.container-first-text span {
+.banner-first-text span {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0.96px;
 }
 
-.container-heading {
+.banner-heading {
   font-size: 32px;
   font-weight: 500;
   line-height: 40px;
@@ -197,7 +197,7 @@
   margin-bottom: 0;
 }
 
-.container-heading h1 {
+.banner-heading h1 {
   color: #17253d;
   font-weight: 500;
   font-size: 40px;
@@ -205,7 +205,7 @@
   letter-spacing: -1px;
 }
 
-.container-paragraph {
+.banner-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -216,14 +216,14 @@
   padding-right: 16px;
 }
 
-.container-button {
+.banner-button {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-top: 24px;
 }
 
-.container-button-one {
+.banner-button-one {
   font-family: letest;
   border: 2px solid transparent;
   padding: 12px 12px 14px 12px;
@@ -236,7 +236,7 @@
   border-radius: 8px;
 }
 
-.container-button-two {
+.banner-button-two {
   font-family: letest;
   border: 2px solid #17253d;
   padding: 12px 12px 14px 12px;
@@ -504,7 +504,7 @@
   letter-spacing: 0.96px;
 }
 
-.container-heading {
+.banner-heading {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
@@ -512,7 +512,7 @@
   color: #0e1726;
 }
 
-.container-heading h2 {
+.banner-heading h2 {
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
@@ -1927,15 +1927,15 @@ footer {
 }
 
 @media screen and (min-width: 540px) {
-  .first-banner-container{
+  .banner-first-container {
     padding-inline: 64px;
   }
 
-  .container-paragraph {
+  .banner-paragraph {
     padding-right: 17px;
   }
 
-  .container-button {
+  .banner-button {
     flex-direction: row;
   }
 
@@ -2283,59 +2283,59 @@ footer {
     padding-block: 96px;
   }
 
-  .first-banner-container{
+  .banner-first-container {
     align-items: center;
     flex-direction: row-reverse;
     padding-inline: 56px;
     gap: 16px;
   }
 
-  .first-container-image-main {
+  .banner-container-image-main{
     flex: 1;
   }
 
-  .first-container-image {
+  .banner-container-image{
     padding: 24px;
     backdrop-filter: blur(1.25rem);
     border-radius: 24px;
     display: flex;
   }
 
-  .first-container-image img {
+  .banner-container-image img {
     border-radius: 16px;
   }
 
-  .container-content {
+  .banner-content{
     flex: 1;
   }
 
-  .container-first-text {
+  .banner-first-text {
     position: relative;
     bottom: 4px;
   }
 
-  .container-heading h1 {
+  .banner-heading h1 {
     font-size: 44px;
     line-height: 56px;
     position: relative;
     bottom: 8px;
   }
 
-  .container-paragraph {
+  .banner-paragraph {
     margin-top: 16px;
     padding-right: 48px;
   }
 
-  .container-button {
+  .banner-button {
     margin-top: 32px;
   }
 
-  .container-button-one {
+  .banner-button-one {
     padding-inline: 27px;
     padding-inline-start: 27px;
   }
 
-  .container-button-two {
+  .banner-button-two {
     padding-inline: 28px;
     padding-inline-start: 28px;
   }
@@ -2455,7 +2455,7 @@ footer {
     margin-bottom: 8px;
   }
 
-  .container-heading h2 {
+  .banner-heading h2 {
     font-size: 40px;
     line-height: 48px;
   }
