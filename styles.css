@@ -1517,15 +1517,15 @@
   border-radius: 8px;
 }
 
-/* eighth container */
+/* global container */
 
-.eighth-container {
+.global-container {
   position: relative;
   padding-block: 56px;
   background-position: center;
 }
 
-.eighth-container-content {
+.global-container-content {
   position: relative;
   color: #dceef8;
   padding-right: 16px;
@@ -1537,7 +1537,7 @@
   text-align: center;
 }
 
-.eighth-container-heading h2 {
+.global-container-heading h2 {
   font-family: "Segoe UI Variable Display", "Segoe UI", segoeui,
     "Helvetica Neue", helvetica, arial, sans-serif;
   font-weight: 500;
@@ -1546,7 +1546,7 @@
   letter-spacing: -0.8px;
 }
 
-.eighth-container-para {
+.global-container-para {
   padding-inline: 16px;
   margin-top: 16px;
   font-weight: 400;
@@ -1555,7 +1555,7 @@
   letter-spacing: -0.48px;
 }
 
-.eighth-container-button {
+.global-container-button {
   margin-top: 24px;
   display: flex;
   justify-content: center;
@@ -1995,17 +1995,17 @@ footer {
     padding-inline: 64px;
   }
 
-  .eighth-container-content {
+  .global-container-content {
     padding-inline: 64px;
   }
 
-  .eighth-container-heading {
+  .global-container-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .eighth-container-button {
+  .global-container-button {
     display: flex;
     flex-direction: row;
     width: 142.91px;
