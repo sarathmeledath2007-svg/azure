@@ -948,9 +948,9 @@
   display: none;
 }
 
-/* fifth container */
+/* products container */
 
-.fifth-container {
+.products-container {
   padding-block: 56px;
   padding-inline: 16px;
   max-width: 100%;
@@ -958,7 +958,7 @@
   position: relative;
 }
 
-.fifth-container-contant {
+.products-container-contant {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -970,7 +970,7 @@
   width: 100%;
 }
 
-.fifth-featured-contant {
+.products-featured-contant {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -980,7 +980,7 @@
   row-gap: 12px;
 }
 
-.fifth-contant-image {
+.products-contant-image {
   padding-right: 4px;
   padding-left: 4px;
   position: absolute;
@@ -993,7 +993,7 @@
   border-radius: 16px;
 }
 
-.fifth-contant-image img {
+.products-contant-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1001,17 +1001,17 @@
   object-position: center -146px;
 }
 
-.fifth-empty-div {
+.products-empty-div {
   height: 224px;
   width: 100%;
 }
 
-.fifth-image-content {
+.products-image-content {
   position: relative;
   padding: 16px;
 }
 
-.fifth-image-content-section {
+.products-image-content-section {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -1020,11 +1020,11 @@
   color: #dceef8;
 }
 
-.fifth-image-heading {
+.products-image-heading {
   display: flex;
 }
 
-.fifth-image-heading h3 {
+.products-image-heading h3 {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
@@ -1032,21 +1032,21 @@
   color: #fff;
 }
 
-.fifth-content-image {
+.products-content-image {
   width: 100%;
   display: flex;
   gap: 12px;
   flex-direction: column;
 }
 
-.fifth-contant-image-para span {
+.products-contant-image-para span {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.48px;
 }
 
-.fifth-content-image-button {
+.products-content-image-button {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -1056,7 +1056,7 @@
   border: none;
 }
 
-.fifth-content-image-button span {
+.products-content-image-button span {
   padding: 10px 12px 12px 12px;
   border-radius: 8px;
   color: #0e1726;
@@ -1067,7 +1067,7 @@
   letter-spacing: -0.3px;
 }
 
-.fifth-card-content {
+.products-card-content {
   position: relative;
   max-width: 100%;
   display: flex;
@@ -1077,7 +1077,7 @@
   padding-inline: 4px;
 }
 
-.fifth-card {
+.products-card {
   box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
     0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
   background: #fefefe;
@@ -1090,7 +1090,7 @@
   width: 100%;
 }
 
-.fifth-content-card {
+.products-content-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1098,7 +1098,7 @@
   gap: 12px;
 }
 
-.fifth-content-card-image {
+.products-content-card-image {
   background-color: #fefefe;
   border-width: 0.0625rem;
   border-radius: 8px;
@@ -1110,7 +1110,7 @@
   height: 46px;
 }
 
-.fifth-content-card-image img {
+.products-content-card-image img {
   width: 100%;
   height: 100%;
   max-width: 24px;
@@ -1118,7 +1118,7 @@
   font-size: 24px;
 }
 
-.fifth-content-card-section {
+.products-content-card-section {
   display: flex;
   gap: 12px;
   flex-direction: column;
@@ -1126,14 +1126,14 @@
   text-align: left;
 }
 
-.fifth-content-card-first h4 {
+.products-content-card-first h4 {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.2px;
 }
 
-.fifth-content-card-second {
+.products-content-card-second {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1141,14 +1141,14 @@
   color: #17253d;
 }
 
-.fifth-explore-product {
+.products-explore-product {
   margin-top: 32px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
 }
 
-.fifth-explore-product span {
+.products-explore-product span {
   color: #004275;
   text-decoration: underline;
   text-underline-offset: 0.125rem;
@@ -1164,15 +1164,15 @@
   padding-left: 4px;
 }
 
-/* sixth container */
+/* gartner container */
 
-.sixth-container {
+.gartner-container {
   padding-block: 56px;
   padding-inline: 24px;
   position: relative;
 }
 
-.sixth-container-content {
+.gartner-container-content {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -1185,18 +1185,18 @@
   border: 0.0625rem solid #e6f2fb;
 }
 
-.sixth-container-content-div {
+.gartner-container-content-div {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.sixth-container-image {
+.gartner-container-image {
   padding-inline: 8px;
   padding-top: 8px;
   border-radius: 8px;
 }
 
-.sixth-container-image img {
+.gartner-container-image img {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
@@ -1204,7 +1204,7 @@
   aspect-ratio: 1.33333;
 }
 
-.sixth-contant-section {
+.gartner-contant-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1213,7 +1213,7 @@
   max-width: 100%;
 }
 
-.sixth-contant-section-first {
+.gartner-contant-section-first {
   display: flex;
   align-items: flex-start;
   text-align: left;
@@ -1221,40 +1221,40 @@
   flex-direction: column;
 }
 
-.sixth-content-empty {
+.gartner-content-empty {
   width: 100%;
   display: flex;
 }
 
-.sixth-content-section-heading {
+.gartner-content-section-heading {
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.8px;
 }
 
-.sixth-content-section-heading h2 {
+.gartner-content-section-heading h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.46px;
 }
 
-.sixth-content-section-para {
+.gartner-content-section-para {
   display: flex;
   align-items: flex-start;
   text-align: left;
   color: #17253d;
 }
 
-.sixth-content-section-para span {
+.gartner-content-section-para span {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.54px;
 }
 
-.sixth-content-button button {
+.gartner-content-button button {
   border: 2px solid transparent;
   padding: 12px 14px 14px;
   font-weight: 600;
@@ -1961,7 +1961,7 @@ footer {
     padding-left: 0;
   }
 
-  .fifth-container {
+  .products-container {
     padding-inline: 64px;
   }
 
@@ -1969,12 +1969,12 @@ footer {
     bottom: -1px;
   }
 
-  .fifth-content-image-button {
+  .products-content-image-button {
     flex-direction: row;
     width: auto;
   }
 
-  .sixth-container {
+  .gartner-container {
     padding-inline: 64px;
   }
 
@@ -2599,7 +2599,7 @@ footer {
     border-radius: 24px;
   }
 
-  .fifth-container {
+  .products-container {
     padding-block: 96px;
     padding-inline: 56px;
   }
@@ -2608,15 +2608,15 @@ footer {
     gap: 3rem;
   }
 
-  .fifth-container-contant {
+  .products-container-contant {
     gap: 16px;
   }
 
-  .fifth-featured-contant {
+  .products-featured-contant {
     aspect-ratio: 21 / 9;
   }
 
-  .fifth-image-content {
+  .products-image-content {
     padding: 24px;
     grid-area: 1/1;
     display: flex;
@@ -2626,78 +2626,78 @@ footer {
     width: 100%;
   }
 
-  .fifth-empty-div {
+  .products-empty-div {
     height: 0;
   }
 
-  .fifth-image-content-section {
+  .products-image-content-section {
     justify-content: flex-end;
   }
 
-  .fifth-card-content {
+  .products-card-content {
     grid-template-columns: repeat(3, 1fr);
     display: grid;
     gap: 16px;
   }
 
-  .fifth-card {
+  .products-card {
     width: auto;
     height: auto;
     padding: 24px;
   }
 
-  .fifth-content-card {
+  .products-content-card {
     gap: 16px;
     margin-bottom: auto;
   }
 
-  .fifth-content-card-section {
+  .products-content-card-section {
     gap: 16px;
   }
 
-  .fifth-explore-product {
+  .products-explore-product {
     margin-top: 48px;
   }
 
-  .sixth-container {
+  .gartner-container {
     padding-block: 96px;
   }
 
-  .sixth-container-content {
+  .gartner-container-content {
     padding-inline-start: 0;
     border-radius: 24px;
     margin-inline: 0;
     margin-inline-start: -8px;
   }
 
-  .sixth-container-content-div {
+  .gartner-container-content-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.25rem 0.5rem rgba(0, 0, 0, 0.14);
     border-radius: 24px;
   }
 
-  .sixth-container-image {
+  .gartner-container-image {
     padding-block: 8px;
     padding-inline: 0px 8px;
   }
 
-  .sixth-container-image img {
+  .gartner-container-image img {
     height: 100%;
     border-radius: 16px;
   }
 
-  .sixth-contant-section {
+  .gartner-contant-section {
     gap: 6rem;
     padding: 24px 56px 24px 16px;
   }
 
-  .sixth-contant-section-first {
+  .gartner-contant-section-first {
     gap: 16px;
     margin-top: -8px;
   }
 
-  .sixth-content-button button {
+  .gartner-content-button button {
     width: auto;
     padding: 12px 16px;
   }
