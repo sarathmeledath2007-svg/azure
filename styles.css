@@ -1267,9 +1267,9 @@
   width: 100%;
 }
 
-/* seventh container */
+/* resources container */
 
-.seventh-container {
+.resources-container {
   position: relative;
   padding-inline: 16px;
   max-width: 100%;
@@ -1278,7 +1278,7 @@
   justify-content: center;
 }
 
-.seventh-container-content {
+.resources-container-content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1286,7 +1286,7 @@
   max-width: 100%;
 }
 
-.seventh-content-first {
+.resources-content-first {
   padding-inline: 16px;
   max-width: 100%;
   display: flex;
@@ -1303,7 +1303,7 @@
   text-align: center;
 }
 
-.seventh-content-first-line {
+.resources-content-first-line {
   text-transform: uppercase;
   margin-bottom: 12px;
   font-weight: 600;
@@ -1312,14 +1312,14 @@
   letter-spacing: 0.96px;
 }
 
-.seventh-content-heading {
+.resources-content-heading {
   max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.seventh-content-heading h2 {
+.resources-content-heading h2 {
   font-family: letest;
   font-weight: 500;
   font-size: 32px;
@@ -1328,23 +1328,23 @@
   max-width: 90%;
 }
 
-.seventh-content-second {
+.resources-content-second {
   margin-top: -35px;
 }
 
-.seventh-container-scroll {
+.resources-container-scroll {
   position: relative;
   padding-inline: 34px;
   padding-left: 20px;
 }
 
-.seventh-container-scroll-div {
+.resources-container-scroll-div {
   overflow-x: scroll !important;
   overflow-y: hidden;
   scrollbar-width: none;
 }
 
-.seventh-scroll-centent {
+.resources-scroll-centent {
   width: 1332px;
   padding-left: 6px;
   padding-bottom: 9px;
@@ -1359,7 +1359,7 @@
   /* justify-content: center; */
 }
 
-.seventh-scroll-button {
+.resources-scroll-button {
   color: #000;
   z-index: 1;
   max-width: calc(1328px / 6);
@@ -1367,19 +1367,19 @@
     0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
 }
 
-.seventh-scroll-button:first-child {
+.resources-scroll-button:first-child {
   width: 100%;
   overflow: hidden;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
-.seventh-scroll-button:last-child {
+.resources-scroll-button:last-child {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
-.seventh-scroll-button button {
+.resources-scroll-button button {
   color: #000;
   z-index: 1;
   border: none;
@@ -1390,28 +1390,28 @@
   text-align: left;
 }
 
-.seventh-scroll-button button span {
+.resources-scroll-button button span {
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 20px;
   letter-spacing: normal;
 }
 
-.seventh-scroll-button-line {
+.resources-scroll-button-line {
   border-bottom-left-radius: 8px;
   width: 100%;
   height: 4px;
   background-color: #004275;
 }
 
-.seventh-left-right-arrow {
+.resources-left-right-arrow {
   color: #004275;
   padding-bottom: 40px;
   margin-top: 24px;
   position: relative;
 }
 
-.seventh-left-arrow {
+.resources-left-arrow {
   position: absolute;
   top: 1px;
   left: -4px;
@@ -1423,7 +1423,7 @@
   opacity: 0.2;
 }
 
-.seventh-left-arrow span::after {
+.resources-left-arrow span::after {
   font-size: 1.125rem;
   color: #004275;
   font-weight: 600;
@@ -1431,7 +1431,7 @@
   font-family: BBold;
 }
 
-.seventh-right-arrow {
+.resources-right-arrow {
   position: absolute;
   top: 1px;
   left: 48px;
@@ -1442,7 +1442,7 @@
   background-color: transparent;
 }
 
-.seventh-right-arrow span::after {
+.resources-right-arrow span::after {
   font-size: 1.125rem;
   color: #004275;
   font-weight: 600;
@@ -1450,7 +1450,7 @@
   font-family: BBold;
 }
 
-.seventh-second-content {
+.resources-second-content {
   position: relative;
   padding-top: 24px;
   padding-bottom: 47px;
@@ -1458,12 +1458,12 @@
   bottom: 1px;
 }
 
-.seventh-it-content {
+.resources-it-content {
   display: block;
   text-align: center;
 }
 
-.seventh-ith-content-first {
+.resources-ith-content-first {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1471,7 +1471,7 @@
   padding-inline: 20px;
 }
 
-.seventh-it-content-para {
+.resources-it-content-para {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -1479,7 +1479,7 @@
   letter-spacing: -0.48px;
 }
 
-.seventh-it-button {
+.resources-it-button {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -1498,7 +1498,7 @@
   line-height: 20px;
 }
 
-.seventh-it-image {
+.resources-it-image {
   display: flex;
   margin-top: 12px;
   max-width: 100%;
@@ -1510,7 +1510,7 @@
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.12), 0 2rem 4rem rgba(0, 0, 0, 0.14);
 }
 
-.seventh-it-image img {
+.resources-it-image img {
   width: 100%;
   height: 100%;
   aspect-ratio: 1.77778;
@@ -1978,20 +1978,20 @@ footer {
     padding-inline: 64px;
   }
 
-  .seventh-container {
+  .resources-container {
     padding-inline: 64px;
   }
 
-  .seventh-content-first {
+  .resources-content-first {
     padding-inline: 64px;
     padding-inline-start: 60px;
   }
 
-  .seventh-container-scroll {
+  .resources-container-scroll {
     padding-inline: 64px;
   }
 
-  .seventh-ith-content-first {
+  .resources-ith-content-first {
     padding-inline: 64px;
   }
 
@@ -2706,45 +2706,45 @@ footer {
     padding-top: 4.5rem;
   }
 
-  .seventh-content-first {
+  .resources-content-first {
     padding-inline: 54px;
     margin-bottom: 52px;
     flex-direction: column;
   }
 
-  .seventh-content-first-line {
+  .resources-content-first-line {
     margin-bottom: 8px;
   }
 
-  .seventh-content-heading h2 {
+  .resources-content-heading h2 {
     max-width: 100%;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -1px;
   }
 
-  .seventh-content-second {
+  .resources-content-second {
     margin-top: -28px;
   }
 
-  .seventh-container-scroll {
+  .resources-container-scroll {
     padding-inline: 54px;
   }
 
-  .seventh-scroll-button:first-child {
+  .resources-scroll-button:first-child {
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
   }
 
-  .seventh-scroll-button button {
+  .resources-scroll-button button {
     padding: 16px 24px 24px;
   }
 
-  .seventh-container-scroll {
+  .resources-container-scroll {
     padding-inline: 54px;
   }
 
-  .seventh-left-right-arrow {
+  .resources-left-right-arrow {
     padding-bottom: 0;
     margin-top: 0;
     position: absolute;
@@ -2752,11 +2752,11 @@ footer {
     right: 142px;
   }
 
-  .seventh-left-arrow {
+  .resources-left-arrow {
     display: none;
   }
 
-  .seventh-right-arrow {
+  .resources-right-arrow {
     top: 0;
     right: 0;
   }
