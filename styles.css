@@ -2762,4 +2762,24 @@ footer {
     top: 0;
     right: 0;
   }
-}
+
+  .resources-second-content{
+    padding-top: 32px;
+    padding-bottom: 72px;
+  }
+
+  .resources-ith-content-first{
+    gap: 16px;
+  }
+
+  .resources-it-image{  
+    padding: 24px;
+    margin-top: 16px;   
+    margin-inline: auto;  
+    width: 61.367%;
+    border-radius: 24px;
+  }        
+  
+    
+}   
+    
