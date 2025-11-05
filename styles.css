@@ -2571,6 +2571,7 @@ footer {
 
   .products-contant-image img{
     border-radius: 24px;
+    object-position: center;
   }
 
   .products-empty-div {
@@ -2748,6 +2749,7 @@ footer {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -1.3px;
+    color: #fff;
   }
 
   .global-container-para {  
@@ -2816,6 +2818,94 @@ footer {
     position: relative;
     bottom: 1px;
   }
+    
+  .next-step-section {
+    padding-block: 96px 96px;
+    padding-inline-start: 48px;
+  }
 
-           
+  .next-step-heading {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 8px;
+
+  }
+
+  .next-step-content {         
+    flex-direction: row;
+    column-gap: 16px;
+    margin-top: 32px;     
+  }
+    
+  .next-step-card {                  
+    flex: 1;
+    justify-content: space-between;
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .next-card-content {
+    padding-inline-end: 32px;
+    gap: 16px;
+  }
+
+  .next-card-heading h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .next-card-button {
+    margin-top: 48px;
+  }
+
+  .last-button-text {
+    white-space: nowrap;
+  }
+
+  .social-media-content {
+    flex-direction: row;
+    padding-block-end: 0;
+    align-items: center;
+    padding-inline-start: 40px;
+  }
+
+  .social-media-container {
+    padding-bottom: 22px;
+  }
+
+  .social-section-button {
+    padding-inline: 16px 17px;
+  }
+
+  .social-section-button-text {
+    top: 0;
+  }
+
+  .social-section-two {
+    margin-left: 12px;
+  }
+
+  .social-ul {
+    padding-bottom: 4px;
+  }
+       
+  .social-ul-last-li {
+    position: relative;
+    left: 1px;
+  }
+
+  .footer-section-ul {
+    margin-left: 10px;
+    margin-top: 6px;
+  }
+
+  .footer-section-ul li {
+    padding: 0 24px 4px 0;
+  }
+
+
 }     
