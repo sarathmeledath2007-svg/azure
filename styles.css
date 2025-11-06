@@ -2441,7 +2441,7 @@ footer {
   .solutions-li-span {
     background-color: #004275;
     display: flex;
-    width: 8px;
+    width: 6px;
     border-radius: 4px;
   }
 
@@ -2898,6 +2898,11 @@ footer {
     left: 1px;
   }
 
+ .footer-section-ul-div {
+  display: flex;
+  justify-content: flex-end;
+ } 
+
   .footer-section-ul {
     margin-left: 10px;
     margin-top: 6px;
@@ -2940,6 +2945,160 @@ footer {
     margin-inline-end: 49px;
   }
 
-    
+  .products-next-arrow {
+    display: block;
+  }
+
+  .products-button-text {
+    padding-bottom: 0.125rem;
+  }
+
+  .last-button-text-third {
+    padding-bottom: 1px;
+  }
+
+  .resources-it-image {
+    margin-top: 17px;
+  }
+
+  .next-card-content {
+    padding-inline-end: 28px;
+  }
+
+  .next-button-text {
+    padding-bottom: 0.125rem;
+  }
+
+  .social-section-button-text {
+    top: 1px;
+  }
+
+  .social-ul {
+    padding-bottom: 3px;
+  }
+
 }
-      
+
+@media screen and (min-width: 928px) {
+  
+  .banner-paragraph {
+    padding-right: 50px;
+  }
+
+  .products-content-card-first h4 {
+    letter-spacing: -0.1px;
+  }
+
+  .resources-it-image {
+    margin-top: 18px;
+  }
+
+}
+
+@media screen and (min-width: 930px) {
+
+  .first-banner {
+    padding-block: 104px;
+  }
+
+  .banner-paragraph {
+    padding-right: 48px;
+  }
+
+  .social-section-button-text {
+    top: 0;
+  }
+
+  .social-ul {
+    padding-bottom: 4px;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  
+  .first-banner {
+    padding-block: 132px;
+  }
+
+  .banner-paragraph {
+    padding-right: 50px;
+  }
+
+  .discover-content-section-paragraph p {
+    padding-right: 8px;
+  }
+
+  .solutions-li-first-para {
+    padding-right: 4px;
+  }
+
+  .last-button-text-third {
+    padding-bottom: 2px;
+  }
+
+  .next-card-content {
+    padding-inline-end: 24px;
+  }
+
+  .next-button-text {
+    padding-bottom: 0;
+  }
+
+  .social-section-button {
+    padding-top: 15px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .banner-paragraph {
+    padding-right: 48px;
+  }
+
+  .discover-content-section-paragraph p {
+    padding-right: 7.6px;
+  }
+
+  .solutions-li-heading-button-second-change::before {
+    margin-top: 0;  
+    right: 0;
+  }
+
+  .solutions-li-heading-button-second-change {
+    padding-block-end: 32px;
+  }
+
+  .solutions-li-heading-button-second h3 {
+    letter-spacing: 0.02px;
+  }
+
+  .solutions-li-heading-button-second-change-four::before {
+    margin-top: 0;
+  }
+
+  .resources-it-image {
+    margin-top: 21px;
+  }
+
+  .next-button-text {
+    padding-bottom: 0.225rem;
+  }
+
+  .social-section-button {
+    padding-bottom: 6px;
+  }
+
+  .social-section-button span img {
+    bottom: 2px;
+  }
+
+}
+
+@media screen and (min-width: 1084px) {
+
+
+
+}
+                       
