@@ -3184,34 +3184,34 @@ footer {
     font-weight: 400;
     font-size: 13px;
   }
-
+   
   .header-nav-li-button button span {
     padding: 4px 8px 10px;
-  }
+  }    
 
-  .featured-second {
+  .featured-second {                 
     top: -4px;
   }
 
   .solutions-li-second-content {
     margin-left: 51px;
   }
-
+     
   .solutions-li-second {
-    display: block;
+    display: block;   
   }
 
   .solutions-li-heading-button-second {
     padding-block-end: 32px;   
-    justify-content: flex-end;
+    justify-content: flex-end;         
   }
-
+         
   .solutions-li-heading-button-second::before {
     margin-top: 0;
   }
 
-
-
+      
+    
 
 
 }
