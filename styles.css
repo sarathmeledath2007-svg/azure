@@ -3119,13 +3119,13 @@ footer {
     list-style: none;
     display: flex;
     align-items: center;
-    height: 48px;
+    height: 48px;          
     position: relative;
     top: 2px;
   }
 
   .header-desktop-search-section {
-    display: flex;
+    display: flex;     
     position: absolute;
     right: 55px;
   }
@@ -3303,6 +3303,10 @@ footer {
 
 @media screen and (min-width: 1094px) {
 
+  .featured-second {
+    top: 0; 
+  }
+
   .footer-section-second {
     padding-bottom: 15px;
   }
@@ -3322,6 +3326,78 @@ footer {
   .header-nav-li-pri {
     display: block;
   }
+
+  .nav-li {
+    padding: 16px 11px 16px 16px;
+  }
+
+  .nav-li-pri {
+    padding-right: 12px;
+  }
+
+  .header-desktop-search-section {
+    right: 64px;
+  }
+
+  .first-banner {
+    padding-block: 121px 122px;  
+  }
+
+  .banner-first-container {
+    padding-inline: 63px;
+    max-width: 1264px;
+    margin-right: auto;     
+    margin-left: auto;
+  }   
+  
+  .featured-second {
+    top: 1px;
+    padding-inline: 63px;
+    height: 55px;
+  }
+
+  .featured-second-scroll-ul li {
+    margin-top: 14px;
+  }
+
+  .solutions-li-first-image-section {
+    width: 59.6%;
+  }
+
+  .get-start-azure-button {
+    margin-bottom: 2px;
+  }
+
+  .discover-container-content {
+    padding-inline: 63px;
+    padding-inline-end: 71px;
+  }
+
+  .discover-content-button-register {
+    padding-bottom: 4px;
+  }
+
+  .solutions-container-contant {
+    padding-inline: 63px;
+  }
+
+  .solutions-li-first-image-section {
+    padding: 9px 23px 9px 25px;
+  }
+
+  .products-container {
+    padding-inline: 63px;
+  }  
+
+  .products-next-arrow {
+    display: none;
+  }
+
+  .products-container-contant {       
+    gap: 15px;
+  }           
+
+
 
 }
 
