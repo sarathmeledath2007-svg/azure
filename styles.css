@@ -3119,13 +3119,13 @@ footer {
     list-style: none;
     display: flex;
     align-items: center;
-    height: 48px;          
+    height: 48px;
     position: relative;
     top: 2px;
   }
 
   .header-desktop-search-section {
-    display: flex;     
+    display: flex;
     position: absolute;
     right: 55px;
   }
@@ -3286,12 +3286,12 @@ footer {
   .discover-container-content {
     margin-bottom: 1px;
   }
-    
+
   .solutions-li-first-para {
     padding-right: 3px;
   }
 
-}       
+}
 
 @media screen and (min-width: 1183px) {
 
@@ -3304,7 +3304,7 @@ footer {
 @media screen and (min-width: 1094px) {
 
   .featured-second {
-    top: 0; 
+    top: 0;
   }
 
   .footer-section-second {
@@ -3315,7 +3315,7 @@ footer {
     margin-bottom: -27px;
   }
 
-  .footer-section-line-two {    
+  .footer-section-line-two {
     margin-bottom: 6px;
   }
 
@@ -3340,16 +3340,16 @@ footer {
   }
 
   .first-banner {
-    padding-block: 121px 122px;  
+    padding-block: 121px 122px;
   }
 
   .banner-first-container {
     padding-inline: 63px;
     max-width: 1264px;
-    margin-right: auto;     
+    margin-right: auto;
     margin-left: auto;
-  }   
-  
+  }
+
   .featured-second {
     top: 1px;
     padding-inline: 63px;
@@ -3360,12 +3360,41 @@ footer {
     margin-top: 14px;
   }
 
+  .get-start-azure-button {
+    margin-bottom: 2px;
+  }
+
+  .solutions-container {
+    padding-block-start: 95px;
+  }
+
+  .scroll-button-first {
+    padding-right: 25px;
+  }
+
+  .solutions-li-heading-button h3 {
+    line-height: 23px;
+    letter-spacing: -0.2px;
+  }
+
   .solutions-li-first-image-section {
     width: 59.6%;
   }
 
-  .get-start-azure-button {
-    margin-bottom: 2px;
+  .solutions-video-play-button button::before {
+    right: 0;
+  }
+
+  .solutions-container-contant {
+    padding-inline: 63px;
+  }
+
+  .solutions-li-second-content {
+    margin-left: 52px;
+  }
+
+  .products-scroll-button-first {
+    padding-right: 24px;
   }
 
   .discover-container-content {
@@ -3377,27 +3406,37 @@ footer {
     padding-bottom: 4px;
   }
 
-  .solutions-container-contant {
-    padding-inline: 63px;
-  }
-
-  .solutions-li-first-image-section {
-    padding: 9px 23px 9px 25px;
-  }
-
   .products-container {
     padding-inline: 63px;
-  }  
+  }
 
   .products-next-arrow {
     display: none;
   }
 
-  .products-container-contant {       
+  .products-container-contant {
     gap: 15px;
-  }           
+  }
 
+  .products-button-text {
+    padding-bottom: 0;
+  }
 
+  .gartner-container {
+    padding-inline: 71px;
+  }
+
+  .last-button-text-third {
+    padding-bottom: 1px;
+  }
+
+  .resources-it-image {
+    margin-top: 16px;
+  }
+
+  
+
+     
 
 }
 
