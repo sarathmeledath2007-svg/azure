@@ -2191,7 +2191,7 @@ footer {
   }
 
   .first-banner {
-    padding-block: 81px;
+    padding-block: 72px;
   }
 
   .banner-first-container {
@@ -2200,6 +2200,13 @@ footer {
     padding-inline: 56px;
     gap: 16px;
     padding-bottom: 0;
+    min-height: 436px;
+  }
+
+  .container {
+    max-width: 100vw;
+    margin-left: auto;  
+    margin-right: auto;
   }
 
   .banner-container-image-main {
@@ -2210,7 +2217,7 @@ footer {
     padding: 24px;
     backdrop-filter: blur(1.25rem);
     border-radius: 24px;
-    display: flex;
+    display: flex;    
   }
 
   .banner-container-image img {
@@ -2484,6 +2491,7 @@ footer {
 
   .solutions-li-second {
     border-bottom: none;
+    display: block;
   }
 
   .solutions-li-second-content {
@@ -2503,9 +2511,18 @@ footer {
     right: 4px;
   }
 
+  .solutions-li-heading-button-second-change-four {
+    padding-block: 32px;
+    justify-content: flex-end;
+  }
+
+  .solutions-li-heading-button-second-change-four::before {
+    margin-left: 4px;
+  }
+
   .solutions-li-first-image-section {
     position: absolute;
-    width: 59.3%;
+    width: 59.4%;
     height: auto;
     max-height: 636px;
     aspect-ratio: unset;
@@ -2525,6 +2542,7 @@ footer {
   .solutions-video-play-button button {
     border: 2px solid transparent;
     padding: 14px;
+    padding-right: 13px;
     display: flex;
     justify-content: center;
     font-weight: 600;
@@ -2548,6 +2566,10 @@ footer {
 
   .products-container {
     padding-block: 96px;
+    padding-inline: 0;
+  }
+
+  .products-container-content {
     padding-inline: 56px;
   }
 
@@ -2631,15 +2653,14 @@ footer {
   }
 
   .gartner-container-content {
-    padding-inline-start: 0;
     border-radius: 24px;
     margin-inline: 0;
     margin-inline-start: -8px;
   }
 
-  .gartner-container-content-div {
+  .gartner-container-content-div {   
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);    
     border-radius: 24px;
   }
 
@@ -2924,10 +2945,6 @@ footer {
 
 @media screen and (min-width: 912px) {
 
-  .first-banner {
-    padding-block: 92px;
-  }
-
   .banner-button-one {
     padding: 12px 16px 14px;
   }
@@ -3005,10 +3022,6 @@ footer {
 
 @media screen and (min-width: 930px) {
 
-  .first-banner {
-    padding-block: 104px;
-  }
-
   .banner-paragraph {
     padding-right: 48px;
   }
@@ -3024,10 +3037,6 @@ footer {
 }
 
 @media screen and (min-width: 960px) {
-
-  .first-banner {
-    padding-block: 132px;
-  }
 
   .banner-paragraph {
     padding-right: 50px;
@@ -3086,21 +3095,27 @@ footer {
     margin-top: 0;
   }
 
-  .resources-it-image {
-    margin-top: 21px;
+  .resources-second-content {
+    padding-bottom: 71px;
   }
 
+  .resources-it-image {
+    width: 62.267%;
+    margin-top: 16px;
+    padding: 25px;
+  }
+   
   .next-button-text {
     padding-bottom: 0.225rem;
   }
 
-  .social-section-button {
-    padding-bottom: 6px;
+  .social-section-button {   
+    padding-bottom: 6px; 
   }
 
   .social-section-button span img {
     bottom: 2px;
-  }
+  }   
 
 }
 
@@ -3330,7 +3345,7 @@ footer {
   .nav-li {
     padding: 16px 11px 16px 16px;
   }
-   
+
   .nav-li-pri {
     padding-right: 12px;
   }
@@ -3339,19 +3354,15 @@ footer {
     right: 64px;
   }
 
-  .first-banner {
-    padding-block: 121px 122px;
-  }
-
   .banner-first-container {
-    padding-inline: 63px;  
+    padding-inline: 63px;
     max-width: 1264px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .featured-second {     
-    top: 1px;    
+  .featured-second {
+    top: 1px;
     padding-inline: 63px;
     height: 55px;
   }
@@ -3416,7 +3427,7 @@ footer {
 
   .products-container-contant {
     gap: 15px;
-  }  
+  }
 
   .products-button-text {
     padding-bottom: 0;
@@ -3432,7 +3443,7 @@ footer {
 
   .resources-it-image {
     padding: 25px;
-    margin-top: 16px;  
+    margin-top: 16px;
     width: 62.367%;
   }
 
@@ -3458,7 +3469,7 @@ footer {
     padding-inline-start: 47px;
   }
 
-  .social-ul {  
+  .social-ul {
     padding-bottom: 3px;
   }
 
@@ -3467,7 +3478,7 @@ footer {
   }
 
   .footer-section-ul {
-    position: relative;  
+    position: relative;
     top: -1px;
   }
 
