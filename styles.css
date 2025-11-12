@@ -3330,7 +3330,7 @@ footer {
   .nav-li {
     padding: 16px 11px 16px 16px;
   }
-
+   
   .nav-li-pri {
     padding-right: 12px;
   }
@@ -3344,14 +3344,14 @@ footer {
   }
 
   .banner-first-container {
-    padding-inline: 63px;
+    padding-inline: 63px;  
     max-width: 1264px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .featured-second {
-    top: 1px;
+  .featured-second {     
+    top: 1px;    
     padding-inline: 63px;
     height: 55px;
   }
@@ -3416,7 +3416,7 @@ footer {
 
   .products-container-contant {
     gap: 15px;
-  }
+  }  
 
   .products-button-text {
     padding-bottom: 0;
@@ -3431,12 +3431,52 @@ footer {
   }
 
   .resources-it-image {
-    margin-top: 16px;
+    padding: 25px;
+    margin-top: 16px;  
+    width: 62.367%;
   }
 
-  
+  .customer-container {
+    padding-inline: 63px;
+    padding-inline-start: 55px;
+  }
 
-     
+  .customer-container-content-main {
+    gap: 51px;
+  }
+
+  .next-step-section {
+    padding-inline: 71px;
+    padding-inline-start: 55px;
+  }
+
+  .next-button-text {
+    padding-bottom: 0.125rem;
+  }
+
+  .social-media-content {
+    padding-inline-start: 47px;
+  }
+
+  .social-ul {  
+    padding-bottom: 3px;
+  }
+
+  .footer-section-one-change {
+    padding-inline-start: 0;
+  }
+
+  .footer-section-ul {
+    position: relative;  
+    top: -1px;
+  }
+
+  .fotter-section-english {
+    position: relative;
+    top: 1px;
+  }
+
+
 
 }
 
