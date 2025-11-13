@@ -2209,7 +2209,7 @@ footer {
 
   .container {
     max-width: 100vw;
-    margin-left: auto;  
+    margin-left: auto;
     margin-right: auto;
   }
 
@@ -2221,7 +2221,7 @@ footer {
     padding: 24px;
     backdrop-filter: blur(1.25rem);
     border-radius: 24px;
-    display: flex;    
+    display: flex;
   }
 
   .banner-container-image img {
@@ -2267,18 +2267,21 @@ footer {
     display: none;
   }
 
+  .featured-desktop-view {
+    position: sticky;
+    background-color: #fefefe;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
+      0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    height: 56px;
+    top: 0;
+    z-index: 1;
+  }
+
   .featured-second {
     display: flex;
     padding-inline: 56px;
     flex-direction: row;
     align-items: center;
-    background-color: #fefefe;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),
-      0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
-    height: 56px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
   }
 
   .featured-second-scroll {
@@ -2662,9 +2665,9 @@ footer {
     margin-inline-start: -8px;
   }
 
-  .gartner-container-content-div {   
+  .gartner-container-content-div {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);    
+    grid-template-columns: repeat(2, 1fr);
     border-radius: 24px;
   }
 
@@ -3108,18 +3111,18 @@ footer {
     margin-top: 16px;
     padding: 25px;
   }
-   
+
   .next-button-text {
     padding-bottom: 0.225rem;
   }
 
-  .social-section-button {   
-    padding-bottom: 6px; 
+  .social-section-button {
+    padding-bottom: 6px;
   }
 
   .social-section-button span img {
     bottom: 2px;
-  }   
+  }
 
 }
 
@@ -3128,7 +3131,7 @@ footer {
   .header-desktop-view {
     padding: 0 5%;
   }
-  
+
   .header-nav-ul {
     display: none;
   }
@@ -3237,7 +3240,7 @@ footer {
     padding: 4px 8px 10px;
   }
 
-  .featured-second {
+  .featured-desktop-view {
     top: -4px;
   }
 
@@ -3297,7 +3300,7 @@ footer {
     padding: 16px 8px 16px 16px;
   }
 
-  .featured-second {
+  .featured-desktop-view {
     top: -3px;
     margin-top: 1px;
   }
@@ -3314,7 +3317,7 @@ footer {
 
 @media screen and (min-width: 1094px) {
 
-  .featured-second {
+  .featured-desktop-view {
     top: 0;
   }
 
@@ -3360,15 +3363,21 @@ footer {
 
   .banner-first-container {
     padding-inline: 63px;
-    max-width: 1264px;
+    max-width: 1260px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .featured-second {
+  .featured-desktop-view {
     top: 1px;
-    padding-inline: 63px;
     height: 55px;
+  }
+
+  .featured-second {
+    padding-inline: 63px;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .featured-second-scroll-ul li {
@@ -3377,6 +3386,22 @@ footer {
 
   .get-start-azure-button {
     margin-bottom: 2px;
+  }
+
+  .discover-container-content {
+    padding-inline: 63px;
+    padding-inline-end: 71px;
+    max-width: 1252px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .discover-content-section-paragraph p {
+    padding-right: 0;
+  }
+
+  .discover-content-button-register {
+    padding-bottom: 3px;
   }
 
   .solutions-container {
@@ -3402,36 +3427,36 @@ footer {
 
   .solutions-container-contant {
     padding-inline: 63px;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .solutions-li-second-content {
     margin-left: 52px;
   }
 
-  .discover-container-content {
+  .products-container-content {
     padding-inline: 63px;
-    padding-inline-end: 71px;
-  }
-
-  .discover-content-button-register {
-    padding-bottom: 3px;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .products-scroll-button-first {
     padding-right: 24px;
   }
 
-  
-  .products-container-content{
-    padding-inline: 63px;
-  }
-
   .products-next-arrow {
     display: none;
   }
 
+  .products-content-card-second {
+    padding-right: 1px;
+  }
+
   .products-button-text {
-    padding-bottom: 1px;
+    padding-bottom: 2px;
   }
 
   .gartner-container {
@@ -3484,16 +3509,14 @@ footer {
     top: 1px;
   }
 
-
-
 }
 
 @media screen and (min-width: 1354px) {
 
   .header-nav-li-part {
     display: block;
-  } 
-     
+  }
+
 }
 
 @media screen and (min-width: 1400px) {
@@ -3501,9 +3524,9 @@ footer {
   .header-desktop-search-section {
     right: 71px;
   }
-      
-  .header-desktop-search-text {  
-    display: flex;        
+
+  .header-desktop-search-text {
+    display: flex;
     align-items: center;
     position: relative;
     top: 2px;
@@ -3513,7 +3536,40 @@ footer {
   .header-desktop-search-icon {
     padding: 18px;
   }
+    
+  .featured-second-scroll-div {
+    margin-top: 1px;
+  }
+
+  .discover-content-button-register {
+    padding-bottom: 2px;
+  }
+
+  .solutions-li-span {
+    width: 4px;
+  }
+
+  .solutions-li-first-content {
+    margin-left: 49px;
+  }
+
+  .solution-button-text {
+    padding-bottom: 0.125rem;
+  }
+   
+  .gartner-container {
+    padding-inline: 0;
+  }
+
+  .gartner-container-div {
+    padding-inline: 71px;
+    max-width: 1244px;
+    margin-left: auto; 
+    margin-right: auto;
+  }
 
 
-  
-}           
+ 
+ 
+
+} 
