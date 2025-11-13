@@ -2166,6 +2166,10 @@ footer {
     top: 1px;
   }
 
+  .header-desktop-search-text {
+    display: none;
+  }
+
   .header-search-icon {
     position: absolute;
     top: 1px;
@@ -3124,7 +3128,7 @@ footer {
   .header-desktop-view {
     padding: 0 5%;
   }
-
+  
   .header-nav-ul {
     display: none;
   }
@@ -3308,14 +3312,6 @@ footer {
 
 }
 
-@media screen and (min-width: 1183px) {
-
-  .header-nav-li-solu {
-    display: block;
-  }
-
-}
-
 @media screen and (min-width: 1094px) {
 
   .featured-second {
@@ -3336,6 +3332,14 @@ footer {
 
 }
 
+@media screen and (min-width: 1183px) {
+
+  .header-nav-li-solu {
+    display: block;
+  }
+
+}
+
 @media screen and (min-width: 1264px) {
 
   .header-nav-li-pri {
@@ -3343,11 +3347,11 @@ footer {
   }
 
   .nav-li {
-    padding: 16px 11px 16px 16px;
+    padding: 16px 8px 16px 16px;
   }
 
   .nav-li-pri {
-    padding-right: 12px;
+    padding-right: 8px;
   }
 
   .header-desktop-search-section {
@@ -3404,20 +3408,21 @@ footer {
     margin-left: 52px;
   }
 
-  .products-scroll-button-first {
-    padding-right: 24px;
-  }
-
   .discover-container-content {
     padding-inline: 63px;
     padding-inline-end: 71px;
   }
 
   .discover-content-button-register {
-    padding-bottom: 4px;
+    padding-bottom: 3px;
   }
 
-  .products-container {
+  .products-scroll-button-first {
+    padding-right: 24px;
+  }
+
+  
+  .products-container-content{
     padding-inline: 63px;
   }
 
@@ -3425,12 +3430,8 @@ footer {
     display: none;
   }
 
-  .products-container-contant {
-    gap: 15px;
-  }
-
   .products-button-text {
-    padding-bottom: 0;
+    padding-bottom: 1px;
   }
 
   .gartner-container {
@@ -3452,17 +3453,13 @@ footer {
     padding-inline-start: 55px;
   }
 
-  .customer-container-content-main {
-    gap: 51px;
-  }
-
   .next-step-section {
     padding-inline: 71px;
     padding-inline-start: 55px;
   }
 
   .next-button-text {
-    padding-bottom: 0.125rem;
+    padding-bottom: 0.225rem;
   }
 
   .social-media-content {
@@ -3495,6 +3492,28 @@ footer {
 
   .header-nav-li-part {
     display: block;
+  } 
+     
+}
+
+@media screen and (min-width: 1400px) {
+
+  .header-desktop-search-section {
+    right: 71px;
+  }
+      
+  .header-desktop-search-text {  
+    display: flex;        
+    align-items: center;
+    position: relative;
+    top: 2px;
+    right: 5px;
   }
 
-}
+  .header-desktop-search-icon {
+    padding: 18px;
+  }
+
+
+  
+}           
