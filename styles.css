@@ -3530,7 +3530,7 @@ footer {
     padding-right: 12px;
   }
 
-  .nav-li-part{
+  .nav-li-part {
     padding-right: 12px;
   }
 
@@ -3617,7 +3617,7 @@ footer {
 
   .customer-container-content-top {
     padding-inline: 63px;
-    padding-inline-start: 55px;
+    padding-inline-start: 59px;
     max-width: 1260px;
     margin-right: auto;
     margin-left: auto;
@@ -3625,15 +3625,117 @@ footer {
 
   .customer-container-content-main {
     padding-inline: 63px;
-    padding-inline-start: 55px;   
-    max-width: 1268px;   
+    padding-inline-start: 55px;
+    max-width: 1268px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  
+  .next-step-heading {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .next-step-content {
+    max-width: 1245px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .next-button-text {
+    padding-bottom: 0;
+  }
 
+  .social-media-content {
+    max-width: 1235px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
+
+@media screen and (min-width: 1440px) {
+
+  .header-desktop-search-section {
+    right: 73px;
+  }
+
+  .banner-heading h1 {
+    font-size: 62px;
+    line-height: 72px;
+    letter-spacing: -1.8px;
+  }
+
+  .banner-first-container {
+    max-width: 1296px;
+  }
+
+  .featured-second {
+    max-width: 1296px;
+  }
+
+  .discover-container-content {
+    max-width: 1288px;
+  }
+
+  .banner-heading h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .discover-content-section-heading h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .solutions-container-contant {
+    max-width: 1296px;
+  }
+
+  .solutions-li-span {
+    width: 5px;
+  }
+
+  .solutions-li-first-content {
+    margin-left: 48px;
+  }
+
+  .solutions-li-heading-button h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .solutions-li-heading-button::before {
+    top: 2px;
+  }
+
+  .solutions-li-heading-button-second h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .solutions-li-heading-button-second {
+    padding-block-end: 31px;
+  }
+
+  .solutions-li-second-content {
+    margin-left: 51px;
+  }
+
+  .solutions-button-span::before {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .products-container-content {
+    max-width: 1296px;
+  }
+
+  .products-container-contant {
+    flex-direction: row;
+  }
+
+      
+
+}  
