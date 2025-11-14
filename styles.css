@@ -3491,6 +3491,7 @@ footer {
     padding-inline-start: 47px;
   }
 
+
   .social-ul {
     padding-bottom: 3px;
   }
@@ -3521,6 +3522,18 @@ footer {
 
 @media screen and (min-width: 1400px) {
 
+  .nav-li {
+    padding: 16px 11px 16px 16px;
+  }
+
+  .nav-li-pri {
+    padding-right: 12px;
+  }
+
+  .nav-li-part{
+    padding-right: 12px;
+  }
+
   .header-desktop-search-section {
     right: 71px;
   }
@@ -3536,7 +3549,7 @@ footer {
   .header-desktop-search-icon {
     padding: 18px;
   }
-    
+
   .featured-second-scroll-div {
     margin-top: 1px;
   }
@@ -3556,7 +3569,7 @@ footer {
   .solution-button-text {
     padding-bottom: 0.125rem;
   }
-   
+
   .gartner-container {
     padding-inline: 0;
   }
@@ -3564,12 +3577,63 @@ footer {
   .gartner-container-div {
     padding-inline: 71px;
     max-width: 1244px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
   }
 
+  .gartner-container-content-div {
+    margin-top: -4px;
+  }
 
- 
- 
+  .resources-content-first {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-} 
+  .resources-container-scroll {
+    max-width: 1148px;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+
+  .resources-ith-content-first {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .last-button-text-third {
+    padding-bottom: 2px;
+  }
+
+  .resources-it-image {
+    width: 62.467%;
+  }
+
+  .customer-container {
+    padding-inline: 0;
+  }
+
+  .customer-container-content-top {
+    padding-inline: 63px;
+    padding-inline-start: 55px;
+    max-width: 1260px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .customer-container-content-main {
+    padding-inline: 63px;
+    padding-inline-start: 55px;   
+    max-width: 1268px;   
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  
+
+
+
+
+}
