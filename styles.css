@@ -3611,31 +3611,31 @@ footer {
     width: 62.467%;
   }
 
-  .customer-container {
-    padding-inline: 0;
-  }
-
-  .customer-container-content-top {
-    padding-inline: 63px;
-    padding-inline-start: 59px;
-    max-width: 1260px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .customer-container-content-main {
-    padding-inline: 63px;
-    padding-inline-start: 55px;
-    max-width: 1268px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .next-step-heading {
-    max-width: 1260px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .customer-container { 
+    padding-inline: 0; 
+  } 
+ 
+  .customer-container-content-top { 
+    padding-inline: 63px; 
+    padding-inline-start: 59px; 
+    max-width: 1260px; 
+    margin-right: auto; 
+    margin-left: auto;  
+  } 
+ 
+  .customer-container-content-main { 
+    padding-inline: 63px; 
+    padding-inline-start: 55px; 
+    max-width: 1268px;   
+    margin-right: auto;   
+    margin-left: auto; 
+  } 
+   
+  .next-step-heading { 
+    max-width: 1260px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  } 
 
   .next-step-content {
     max-width: 1245px;
@@ -3736,6 +3736,6 @@ footer {
     flex-direction: row;
   }
 
-      
+
 
 }  
